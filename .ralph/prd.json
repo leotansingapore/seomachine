@@ -1,0 +1,52 @@
+{
+  "project": "seomachine",
+  "branchName": "ralph/autonomous",
+  "description": "Autonomous improvements to the SEO content engine",
+  "userStories": [
+    {
+      "id": "SEO-001",
+      "title": "Add content pipeline health dashboard API",
+      "description": "As an agency operator, I want the /api/status endpoint to also return pipeline counts (topics, research, drafts, published, review-required) so the dashboard shows content flow metrics",
+      "acceptanceCriteria": ["API returns pipeline counts per directory", "Dashboard page.tsx renders pipeline section", "Build passes"],
+      "priority": 1,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "SEO-002",
+      "title": "Add client directory listing to dashboard API",
+      "description": "As an agency operator, I want the dashboard to show all onboarded clients from clients/ directory with their config.json summary",
+      "acceptanceCriteria": ["API returns client list with name, website, article target", "Dashboard renders client cards", "Build passes"],
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "SEO-003",
+      "title": "Wire scrub command to auto-run on all new drafts",
+      "description": "As a content producer, I want the /write command's agent cascade to include /scrub as the first step to remove AI watermarks before SEO optimization",
+      "acceptanceCriteria": ["write.md command references scrub step", "Scrub runs before content-analyzer", "No manual intervention needed"],
+      "priority": 3,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "SEO-004",
+      "title": "Add content calendar command",
+      "description": "As an agency operator, I want a /calendar command that generates a visual content calendar from all client content plans, showing what's due when",
+      "acceptanceCriteria": ["Command reads all clients/*/research/content-plan-*.md", "Outputs merged calendar sorted by date", "Saves to output/content-calendar.md"],
+      "priority": 4,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "SEO-005",
+      "title": "Add automated quality scoring to published articles",
+      "description": "As a content producer, I want every article that moves to published/ to automatically get a quality score logged, tracking improvement over time",
+      "acceptanceCriteria": ["Score tracked in output/quality-log.jsonl", "Each entry has: date, article, scores, composite", "Can chart improvement over time"],
+      "priority": 5,
+      "passes": false,
+      "notes": ""
+    }
+  ]
+}
