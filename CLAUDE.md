@@ -1,10 +1,28 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 ## Project Overview
 
-SEO Machine is an open-source Claude Code workspace for creating SEO-optimized blog content. It combines custom commands, specialized agents, and Python-based analytics to research, write, optimize, and publish articles for any business.
+SEO Machine -- forked and adapted as Leo Tan's autonomous SEO agency content engine. Multi-client system that researches, writes, optimizes, and publishes SEO content at scale.
+
+Part of a 3-repo agency system:
+- **seomachine** (this repo): Content engine -- research, write, optimize, publish
+- **seo-audit-tool**: Client-facing audit dashboard (Next.js + Supabase)
+- **build-the-best**: Client SEO management platform (AutoSEO)
+
+## Multi-Client Architecture
+
+```
+clients/
+  .template/          # Copy this for new clients
+    config.json       # Client settings (CMS, GA4, GSC, competitors)
+    context/          # Brand voice overrides
+    research/         # Client-specific research
+    drafts/           # Client drafts
+    published/        # Published content
+  <client-slug>/      # Each client gets their own directory
+```
+
+Client context overrides agency defaults in `context/`. Load client config before any content work.
 
 ## Setup
 
@@ -12,12 +30,15 @@ SEO Machine is an open-source Claude Code workspace for creating SEO-optimized b
 pip install -r data_sources/requirements.txt
 ```
 
-API credentials are configured in `data_sources/config/.env` (GA4, GSC, DataForSEO, WordPress). GA4 service account credentials go in `credentials/ga4-credentials.json`.
+API credentials: `data_sources/config/.env` (GA4, GSC, DataForSEO, WordPress).
 
 ## Commands
 
-All commands are defined in `.claude/commands/` and invoked as slash commands:
+### Agency Commands (new)
+- `/new-client [name, url, industry]` - Onboard a new client, research their site, create content plan
+- `/client-report [client-slug]` - Generate performance report for a client
 
+### Content Commands (from upstream)
 - `/research [topic]` - Keyword/competitor research, generates brief in `research/`
 - `/write [topic]` - Create full article in `drafts/`, auto-triggers optimization agents
 - `/rewrite [topic]` - Update existing content, saves to `rewrites/`
@@ -26,24 +47,24 @@ All commands are defined in `.claude/commands/` and invoked as slash commands:
 - `/performance-review` - Analytics-driven content priorities
 - `/publish-draft [file]` - Publish to WordPress via REST API
 - `/article [topic]` - Simplified article creation
-- `/cluster [topic]` - Build complete topic cluster strategy with pillar + supporting articles + linking map
+- `/cluster [topic]` - Topic cluster strategy with pillar + supporting articles
 - `/priorities` - Content prioritization matrix
-- `/research-serp`, `/research-gaps`, `/research-trending`, `/research-performance`, `/research-topics` - Specialized research commands
-- `/research-ai-citations [topic]` - AI citation audit: generates prompts, clusters them, audits which sources AI cites
-- `/repurpose [file]` - Adapts article for LinkedIn, Medium, Reddit, Quora distribution
-- `/landing-write`, `/landing-audit`, `/landing-research`, `/landing-publish`, `/landing-competitor` - Landing page commands
+- `/research-serp`, `/research-gaps`, `/research-trending`, `/research-performance`, `/research-topics` - Specialized research
+- `/research-ai-citations [topic]` - AI citation audit
+- `/repurpose [file]` - Adapt for LinkedIn, Medium, Reddit, Quora
+- `/landing-write`, `/landing-audit`, `/landing-research`, `/landing-publish`, `/landing-competitor` - Landing pages
 
 ## Architecture
 
 ### Command-Agent Model
 
-**Commands** (`.claude/commands/`) orchestrate workflows. **Agents** (`.claude/agents/`) are specialized roles invoked by commands. After `/write`, these agents auto-run: SEO Optimizer, Meta Creator, Internal Linker, Keyword Mapper.
+**Commands** (`.claude/commands/`) orchestrate workflows. **Agents** (`.claude/agents/`) are specialized roles. After `/write`, these agents auto-run: SEO Optimizer, Meta Creator, Internal Linker, Keyword Mapper.
 
-Key agents: `content-analyzer.md`, `seo-optimizer.md`, `meta-creator.md`, `internal-linker.md`, `keyword-mapper.md`, `editor.md`, `headline-generator.md`, `cro-analyst.md`, `performance.md`, `cluster-strategist.md`.
+Agents: content-analyzer, seo-optimizer, meta-creator, internal-linker, keyword-mapper, editor, headline-generator, cro-analyst, performance, cluster-strategist.
 
 ### Python Analysis Pipeline
 
-Located in `data_sources/modules/`. The Content Analyzer chains:
+Located in `data_sources/modules/`:
 1. `search_intent_analyzer.py` - Query intent classification
 2. `keyword_analyzer.py` - Density, distribution, stuffing detection
 3. `content_length_comparator.py` - Benchmarks against top 10 SERP results
@@ -55,51 +76,36 @@ Located in `data_sources/modules/`. The Content Analyzer chains:
 - `google_analytics.py` - GA4 traffic/engagement data
 - `google_search_console.py` - Rankings and impressions
 - `dataforseo.py` - SERP positions, keyword metrics
-- `data_aggregator.py` - Combines all sources into unified analytics
-- `wordpress_publisher.py` - Publishes to WordPress with Yoast SEO metadata
+- `data_aggregator.py` - Combines all sources
+- `wordpress_publisher.py` - Publishes with Yoast SEO metadata
 
 ### Opportunity Scoring
 
-`opportunity_scorer.py` uses 8 weighted factors: Volume (25%), Position (20%), Intent (20%), Competition (15%), Cluster (10%), CTR (5%), Freshness (5%), Trend (5%).
-
-## Running Python Scripts
-
-```bash
-# Research & analysis scripts (run from repo root)
-python3 research_quick_wins.py
-python3 research_competitor_gaps.py
-python3 research_performance_matrix.py
-python3 research_priorities_comprehensive.py
-python3 research_serp_analysis.py
-python3 research_topic_clusters.py
-python3 research_trending.py
-python3 seo_baseline_analysis.py
-python3 seo_bofu_rankings.py
-python3 seo_competitor_analysis.py
-
-# Test API connectivity
-python3 test_dataforseo.py
-```
+`opportunity_scorer.py`: Volume (25%), Position (20%), Intent (20%), Competition (15%), Cluster (10%), CTR (5%), Freshness (5%), Trend (5%).
 
 ## Content Pipeline
 
-`topics/` (ideas) → `research/` (briefs) → `drafts/` (articles) → `review-required/` (pending review) → `published/` (final)
+`topics/` -> `research/` -> `drafts/` -> `review-required/` -> `published/`
 
-Rewrites go to `rewrites/`. Landing pages go to `landing-pages/`. Audits go to `audits/`. Repurposed content goes to `repurposed/`.
+For clients: `clients/<slug>/research/` -> `clients/<slug>/drafts/` -> `clients/<slug>/published/`
 
 ## Context Files
 
-`context/` contains brand guidelines that inform all content generation:
-- `brand-voice.md` - Tone, messaging pillars
-- `style-guide.md` - Grammar, formatting standards
-- `seo-guidelines.md` - Keyword and structure rules
-- `internal-links-map.md` - Key pages for internal linking
-- `features.md` - Product features
+`context/` contains agency defaults. Client overrides in `clients/<slug>/context/`.
+- `brand-voice.md` - Agency voice (data-driven, systems-focused, direct, proof-driven)
+- `style-guide.md` - Editorial standards
+- `seo-guidelines.md` - SEO requirements
+- `internal-links-map.md` - Internal linking strategy
+- `features.md` - Agency capabilities and services
 - `competitor-analysis.md` - Competitive intelligence
-- `cro-best-practices.md` - Conversion optimization guidelines
-- `ai-citation-targets.md` - Directories/platforms where your brand should be cited by AI tools
-- `reddit-strategy.md` - Reddit engagement strategy for AI SEO and community visibility
+- `cro-best-practices.md` - Conversion optimization
+- `ai-citation-targets.md` - AI citation targets
+- `reddit-strategy.md` - Reddit/community strategy
 
-## WordPress Integration
+## Reporting
 
-Publishing uses the WordPress REST API with a custom MU-plugin (`wordpress/seo-machine-yoast-rest.php`) that exposes Yoast SEO fields. Articles are published in WordPress block format (HTML comments in Markdown files).
+Status reports auto-send every 3 days (Mon + Thu 9am) to:
+- Lark webhook (LARK_SEO_AGENCY_WEBHOOK)
+- Google Sheet (17XNZrWmJqWY8fLq5NHSwpl_IiMIZwsBsZdz2uWfUYKw)
+
+Script: `~/Documents/New project/tools/seo_agency_status_report.py`

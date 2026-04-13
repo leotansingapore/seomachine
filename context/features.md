@@ -1,253 +1,88 @@
-# [YOUR COMPANY] Features & Benefits
+# Leo Tan SEO Agency -- Capabilities & Services
 
-<!-- INSTRUCTIONS: This document outlines your key features, benefits, and differentiators.
-     Use this to inform content creation that drives conversions and customer acquisition.
-     Fill in all [BRACKETED] sections with your specific information.
-     Delete these instruction comments when done.
-     See examples/castos/ for a complete real-world example. -->
+## Core Services
 
-This document outlines [YOUR COMPANY]'s key features, benefits, and differentiators to inform content creation that drives trial conversions and customer acquisition.
+### 1. Technical SEO Audit & Fix
+- **What**: Full crawl analysis, Core Web Vitals, indexation issues, schema markup, security headers
+- **Outcome**: Clean technical foundation that search engines can crawl and index efficiently
+- **Tools**: seo-audit-tool (our Next.js dashboard), DataForSEO, Google Search Console
 
-## Core Value Propositions
+### 2. AI-Powered Content Engine
+- **What**: Research > Brief > Write > Optimize > Publish pipeline, fully automated
+- **Outcome**: 20-50 SEO-optimized articles per month per client, each targeting specific keyword clusters
+- **Tools**: seomachine (this repo), Claude, DataForSEO, WordPress REST API
 
-<!-- INSTRUCTIONS: List 5-10 of your most important features/benefits.
-     For each one, include:
-     - Feature: What it is (technical description)
-     - Benefit: Why it matters (user outcome)
-     - Conversion Angle: How to pitch it (marketing copy)
--->
+### 3. Keyword Research & Strategy
+- **What**: Topic cluster mapping, competitor gap analysis, SERP analysis, opportunity scoring
+- **Outcome**: Prioritized keyword roadmap with estimated traffic value and difficulty
+- **Tools**: DataForSEO, Google Analytics 4, Google Search Console
 
-### 1. **[FEATURE NAME]**
-- **Feature**: [Technical description of what this feature does]
-- **Benefit**: [The outcome or value this provides to users]
-- **Conversion Angle**: "[One-sentence pitch that makes someone want to sign up]"
+### 4. Competitor Intelligence
+- **What**: Content gap analysis, backlink profile comparison, SERP position tracking
+- **Outcome**: Actionable list of keywords competitors rank for that client doesn't
+- **Tools**: research_competitor_gaps.py, seo_competitor_analysis.py
 
-### 2. **[FEATURE NAME]**
-- **Feature**: [Technical description]
-- **Benefit**: [User outcome]
-- **Conversion Angle**: "[Marketing pitch]"
+### 5. Performance Monitoring & Reporting
+- **What**: Rankings tracking, traffic trends, content performance scoring, ROI attribution
+- **Outcome**: Monthly reports with clear metrics and next-action items
+- **Tools**: GA4, GSC, DataForSEO, automated Lark/Sheet reporting
 
-### 3. **[FEATURE NAME]**
-- **Feature**: [Technical description]
-- **Benefit**: [User outcome]
-- **Conversion Angle**: "[Marketing pitch]"
+### 6. AI Citation Optimization (GEO/AEO)
+- **What**: Optimize content for AI search engines (Google AI Overviews, ChatGPT, Perplexity)
+- **Outcome**: Brand appears in AI-generated answers and citations
+- **Tools**: /research-ai-citations command, ai-citation-targets.md
 
-### 4. **[FEATURE NAME]**
-- **Feature**: [Technical description]
-- **Benefit**: [User outcome]
-- **Conversion Angle**: "[Marketing pitch]"
+## Technical Stack
 
-### 5. **[FEATURE NAME]**
-- **Feature**: [Technical description]
-- **Benefit**: [User outcome]
-- **Conversion Angle**: "[Marketing pitch]"
+### Content Pipeline
+- **seomachine**: Claude Code workspace with 24 commands, 11 agents, 26 marketing skills
+- **Python analytics**: GA4, GSC, DataForSEO integrations for data-driven decisions
+- **WordPress publishing**: Automated via REST API with Yoast SEO metadata
 
-### 6. **[FEATURE NAME]** (Optional)
-- **Feature**: [Technical description]
-- **Benefit**: [User outcome]
-- **Conversion Angle**: "[Marketing pitch]"
+### Audit & Dashboard
+- **seo-audit-tool**: Next.js + Supabase web app for client-facing audit reports
+- **DataForSEO**: Live SERP data, keyword metrics, backlink profiles
+- **Chat agent**: Claude-powered assistant for on-demand SEO questions
 
-### 7. **[FEATURE NAME]** (Optional)
-- **Feature**: [Technical description]
-- **Benefit**: [User outcome]
-- **Conversion Angle**: "[Marketing pitch]"
-
-### 8. **[FEATURE NAME]** (Optional)
-- **Feature**: [Technical description]
-- **Benefit**: [User outcome]
-- **Conversion Angle**: "[Marketing pitch]"
-
-## Technical Features
-
-<!-- INSTRUCTIONS: Group your technical features into logical categories.
-     Use bullet points for quick reference. -->
-
-### [CATEGORY NAME - e.g., "Hosting & Distribution"]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-
-### [CATEGORY NAME - e.g., "Content Management"]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-
-### [CATEGORY NAME - e.g., "Analytics & Insights"]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-
-### [CATEGORY NAME - e.g., "Integrations"]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-- **[Feature name]**: [Brief description]
-
-## Integrations & Ecosystem
-
-<!-- INSTRUCTIONS: List tools, platforms, and services you integrate with. -->
-
-### Direct Integrations
-- **[Tool/Platform name]**: [What the integration does]
-- **[Tool/Platform name]**: [What the integration does]
-- **[Tool/Platform name]**: [What the integration does]
-- **[Tool/Platform name]**: [What the integration does]
-- **[Tool/Platform name]**: [What the integration does]
-
-### Distribution Partners (if applicable)
-- [Partner 1]
-- [Partner 2]
-- [Partner 3]
-- [Partner 4]
-- [Partner 5]
+### Client Platform
+- **build-the-best**: AutoSEO management platform with onboarding, blog feed, roadmap
 
 ## Competitive Differentiators
 
-<!-- INSTRUCTIONS: Define how you're different from competitors.
-     Group by competitor type or category. -->
+### vs. Traditional SEO Agencies
+- **Fully automated content pipeline** (they use manual writers at $0.10/word)
+- **Real-time data integrations** (they pull monthly spreadsheets)
+- **AI-native from day one** (they're bolting AI onto legacy processes)
+- **Transparent pricing** (no retainer mystery, pay per output)
 
-### vs. [COMPETITOR 1 or COMPETITOR TYPE]
-- **[Your advantage 1]** ([Explain what competitors lack])
-- **[Your advantage 2]** ([Explain what competitors lack])
-- **[Your advantage 3]** ([Explain what competitors lack])
-- **[Your advantage 4]** ([Explain what competitors lack])
+### vs. SEO Tools (Ahrefs, SEMrush)
+- **We execute, not just report** (tools show problems, we fix them)
+- **Content creation included** (tools don't write articles)
+- **Strategy + implementation** (tools are self-serve, we're done-for-you)
 
-### vs. [COMPETITOR 2 or COMPETITOR TYPE]
-- **[Your advantage 1]** ([Explain what competitors lack])
-- **[Your advantage 2]** ([Explain what competitors lack])
-- **[Your advantage 3]** ([Explain what competitors lack])
-- **[Your advantage 4]** ([Explain what competitors lack])
+### vs. AI Content Tools (Jasper, SurferSEO)
+- **Full pipeline, not just writing** (research + strategy + publish + monitor)
+- **Data-driven prioritization** (we pick what to write based on ROI, not guesses)
+- **Technical SEO included** (content tools ignore site health)
 
-### vs. [COMPETITOR 3 or COMPETITOR TYPE]
-- **[Your advantage 1]** ([Explain what competitors lack])
-- **[Your advantage 2]** ([Explain what competitors lack])
-- **[Your advantage 3]** ([Explain what competitors lack])
-- **[Your advantage 4]** ([Explain what competitors lack])
+## Client Segments
 
-## Use Cases by Customer Segment
+### SMBs (5-50 employees)
+- Need affordable SEO without hiring in-house
+- Want to see results within 3-6 months
+- Budget: $1,500-5,000/month
 
-<!-- INSTRUCTIONS: Describe your key customer segments and what they need. -->
+### SaaS Companies
+- Need programmatic SEO at scale
+- Want topic clusters around product features
+- Budget: $3,000-10,000/month
 
-### [SEGMENT 1 NAME]
-- [Need 1]
-- [Need 2]
-- [Need 3]
-- [Need 4]
+### Local Businesses
+- Need local SEO + Google Business Profile optimization
+- Want to rank for "[service] in [city]" keywords
+- Budget: $500-2,000/month
 
-### [SEGMENT 2 NAME]
-- [Need 1]
-- [Need 2]
-- [Need 3]
-- [Need 4]
-
-### [SEGMENT 3 NAME]
-- [Need 1]
-- [Need 2]
-- [Need 3]
-- [Need 4]
-
-### [SEGMENT 4 NAME] (Optional)
-- [Need 1]
-- [Need 2]
-- [Need 3]
-- [Need 4]
-
-### [SEGMENT 5 NAME] (Optional)
-- [Need 1]
-- [Need 2]
-- [Need 3]
-- [Need 4]
-
-## Pricing & Plan Benefits
-
-<!-- INSTRUCTIONS: Outline what's included in each pricing tier.
-     This helps AI understand value propositions for different customer segments. -->
-
-### [PLAN NAME 1] Benefits
-- [Benefit 1]
-- [Benefit 2]
-- [Benefit 3]
-- [Benefit 4]
-- [Benefit 5]
-
-### [PLAN NAME 2] Benefits
-- Everything in [Plan 1], plus:
-- [Additional benefit 1]
-- [Additional benefit 2]
-- [Additional benefit 3]
-- [Additional benefit 4]
-
-### [PLAN NAME 3] Benefits (Optional)
-- Everything in [Plan 2], plus:
-- [Additional benefit 1]
-- [Additional benefit 2]
-- [Additional benefit 3]
-- [Additional benefit 4]
-
-## Key Messaging for Conversions
-
-<!-- INSTRUCTIONS: Pre-write effective marketing messages for common conversion points. -->
-
-### Trial Conversion Messages
-- "[CTA message 1]"
-- "[CTA message 2]"
-- "[CTA message 3]"
-- "[CTA message 4]"
-
-### Pain Point Solutions
-<!-- Format: **"[Common objection or concern]"** → "[Your solution]" -->
-- **"[Customer pain point/concern]"** → "[How your product solves it]"
-- **"[Customer pain point/concern]"** → "[How your product solves it]"
-- **"[Customer pain point/concern]"** → "[How your product solves it]"
-- **"[Customer pain point/concern]"** → "[How your product solves it]"
-- **"[Customer pain point/concern]"** → "[How your product solves it]"
-
-### Social Proof Elements
-<!-- INSTRUCTIONS: Add specific numbers and achievements -->
-- "[Number] of [customers/users] [geographic scope]"
-- "[Impressive metric about usage or scale]"
-- "[Customer rating/review score]"
-- "[Press mentions or awards]"
-
-## Common Questions & Objections
-
-<!-- INSTRUCTIONS: List frequent customer questions and your best answers.
-     This helps AI address objections in content. -->
-
-### "[Common question 1]?"
-**Answer**: [Your clear, benefit-focused answer]
-
-### "[Common question 2]?"
-**Answer**: [Your clear, benefit-focused answer]
-
-### "[Common question 3]?"
-**Answer**: [Your clear, benefit-focused answer]
-
-### "[Common question 4]?"
-**Answer**: [Your clear, benefit-focused answer]
-
-### "[Common question 5]?"
-**Answer**: [Your clear, benefit-focused answer]
-
-## Content Creation Guidelines
-
-When writing about [YOUR COMPANY] features:
-
-1. **Lead with benefits, not features**: Don't just say "[feature name]"—explain "[the outcome it delivers]"
-2. **Use specific examples**: Show how features solve real problems
-3. **Include proof points**: Stats, testimonials, certifications
-4. **Address objections proactively**: Answer concerns before they ask
-5. **Create clear CTAs**: Make next steps obvious (start trial, see pricing, contact sales)
-6. **Emphasize uniqueness**: Highlight what makes [YOUR COMPANY] different from competitors
-7. **Match audience to use case**: Tailor messaging to segment ([segment 1] vs. [segment 2] vs. [segment 3])
-
----
-
-*Note: Update this document as new features launch or positioning changes. Keep messaging aligned with current marketing campaigns and homepage copy.*
+### E-commerce
+- Need product page optimization + category content
+- Want to compete on long-tail product keywords
+- Budget: $2,000-8,000/month

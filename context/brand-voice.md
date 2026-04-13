@@ -1,291 +1,80 @@
-# [YOUR COMPANY] Brand Voice & Messaging
+# Leo Tan SEO Agency -- Brand Voice & Messaging
 
-<!-- INSTRUCTIONS: This template defines your brand voice, tone, and messaging framework.
-     Fill in all [BRACKETED] sections with your company's specific information.
-     Delete these instruction comments when done.
-     See examples/castos/ for a complete real-world example. -->
+This is a multi-client SEO content engine. Each client gets their own context override in `clients/<client-slug>/`. This file defines the AGENCY default voice used for internal content and when no client override exists.
 
-This document defines the [YOUR COMPANY] brand voice, tone, and messaging framework. Reference this when writing all content to ensure consistency.
+## Agency Brand Voice Pillars
 
-## Brand Voice Pillars
+### 1. Data-Driven Authority
+- **What it means**: Every recommendation is backed by metrics, not opinions
+- **How it sounds**: Confident, specific, citing numbers and benchmarks
+- **Example**: "Pages ranking 11-20 for high-intent keywords represent $45K/month in untapped revenue. Here's the exact plan to move them to page 1."
+- **Avoid**: Vague promises, "we'll improve your SEO", hand-wavy language
 
-<!-- INSTRUCTIONS: Define 3-5 voice pillars that capture your brand's personality.
-     Each pillar should include:
-     - What it means (the concept)
-     - How it sounds (the execution)
-     - Example (a sentence in your voice)
-     - Avoid (what NOT to do)
--->
+### 2. Systems-Focused
+- **What it means**: We build repeatable processes, not one-off fixes
+- **How it sounds**: Methodical, structured, process-oriented
+- **Example**: "Our content pipeline runs research > brief > draft > optimize > publish on a weekly cadence. Each step has quality gates."
+- **Avoid**: Ad-hoc recommendations, "just do this one thing"
 
-### 1. [VOICE PILLAR NAME]
-- **What it means**: [Explain the core concept of this voice characteristic]
-- **How it sounds**: [Describe how this comes across in writing - tone, style, approach]
-- **Example**: "[Write an example sentence that demonstrates this voice pillar]"
-- **Avoid**: [List what to avoid - opposite tones, styles, or approaches]
+### 3. Direct and Practical
+- **What it means**: No fluff, no filler, get to the actionable insight
+- **How it sounds**: Short sentences, clear structure, bullet points over paragraphs
+- **Example**: "Your title tag is 72 characters. Cut to 60. Current: 'The Complete Ultimate Guide to Everything About...' Better: 'SEO Audit Checklist: 47 Points [2026 Template]'"
+- **Avoid**: Corporate jargon, buzzwords, padding content for length
 
-### 2. [VOICE PILLAR NAME]
-- **What it means**: [Explain the core concept]
-- **How it sounds**: [Describe the execution]
-- **Example**: "[Example sentence]"
-- **Avoid**: [What to avoid]
-
-### 3. [VOICE PILLAR NAME]
-- **What it means**: [Explain the core concept]
-- **How it sounds**: [Describe the execution]
-- **Example**: "[Example sentence]"
-- **Avoid**: [What to avoid]
-
-### 4. [VOICE PILLAR NAME] (Optional)
-- **What it means**: [Explain the core concept]
-- **How it sounds**: [Describe the execution]
-- **Example**: "[Example sentence]"
-- **Avoid**: [What to avoid]
-
-### 5. [VOICE PILLAR NAME] (Optional)
-- **What it means**: [Explain the core concept]
-- **How it sounds**: [Describe the execution]
-- **Example**: "[Example sentence]"
-- **Avoid**: [What to avoid]
+### 4. Proof-Driven
+- **What it means**: Show results, not promises
+- **How it sounds**: Case studies, before/after metrics, specific outcomes
+- **Example**: "After implementing topic clusters for this client, organic traffic grew 340% in 6 months. Here's the exact cluster map we used."
+- **Avoid**: Unsubstantiated claims, "trust us" language
 
 ## Tone Guidelines
 
-### General Tone: [DESCRIBE YOUR GENERAL TONE]
-[Write a paragraph describing your overall tone. Example: "Imagine you're an experienced [expert in your field] helping a friend succeed. You know what you're talking about, you genuinely want them to succeed, and you explain things clearly without being patronizing."]
+### General Tone
+Imagine you're a senior SEO strategist briefing a client who respects your expertise. You're direct, you use data, and you make complex SEO concepts feel actionable. No hand-holding, but you explain the "why" behind recommendations.
 
 ### Tone Variations by Content Type
 
-<!-- INSTRUCTIONS: Define how your tone shifts for different content types.
-     Include example phrases for each type. -->
+**Technical SEO Content**: Precise, clinical, checklist-oriented
+- "Run a crawl. Fix the 404s. Redirect the 301 chains. Here's your priority list."
 
-**How-To Guides**: [Adjectives describing tone for tutorials]
-- "[Example phrase 1]"
-- "[Example phrase 2]"
-- "[Example phrase 3]"
+**Strategy Content**: Confident, forward-looking, ROI-focused
+- "The keyword gap analysis shows 3 clusters your competitors own that you don't. Estimated value: $12K/month."
 
-**Strategy/Advice Content**: [Adjectives describing tone for strategic content]
-- "[Example phrase 1]"
-- "[Example phrase 2]"
-- "[Example phrase 3]"
+**Client Reports**: Clear, outcome-focused, next-steps-heavy
+- "This month: 23 articles published, 8 reached page 1, organic traffic up 18%. Next month: double down on the converting clusters."
 
-**Industry News/Trends**: [Adjectives describing tone for news/trends]
-- "[Example phrase 1]"
-- "[Example phrase 2]"
-- "[Example phrase 3]"
-
-**Product/Feature Content**: [Adjectives describing tone for product content]
-- "[Example phrase 1]"
-- "[Example phrase 2]"
-- "[Example phrase 3]"
-
-## Messaging Framework
-
-### Core Brand Messages
-
-<!-- INSTRUCTIONS: Define 3-5 core messages that should be woven throughout your content.
-     Each message should include the concept, key points, and when to use it. -->
-
-#### Message 1: [MESSAGE TITLE]
-- **Concept**: [One sentence describing the core message]
-- **Key Points**:
-  - [Supporting point 1]
-  - [Supporting point 2]
-  - [Supporting point 3]
-- **Usage**: When discussing [topics/situations where this message applies]
-
-#### Message 2: [MESSAGE TITLE]
-- **Concept**: [One sentence describing the core message]
-- **Key Points**:
-  - [Supporting point 1]
-  - [Supporting point 2]
-  - [Supporting point 3]
-- **Usage**: When discussing [topics/situations where this message applies]
-
-#### Message 3: [MESSAGE TITLE]
-- **Concept**: [One sentence describing the core message]
-- **Key Points**:
-  - [Supporting point 1]
-  - [Supporting point 2]
-  - [Supporting point 3]
-- **Usage**: When discussing [topics/situations where this message applies]
-
-#### Message 4: [MESSAGE TITLE] (Optional)
-- **Concept**: [One sentence describing the core message]
-- **Key Points**:
-  - [Supporting point 1]
-  - [Supporting point 2]
-  - [Supporting point 3]
-- **Usage**: When discussing [topics/situations where this message applies]
-
-### Value Propositions
-
-<!-- INSTRUCTIONS: Write specific value propositions for each of your key customer segments.
-     These should be 1-2 sentence statements that capture the core benefit for each audience. -->
-
-**For [TARGET SEGMENT 1]**:
-"[Value proposition for this segment]"
-
-**For [TARGET SEGMENT 2]**:
-"[Value proposition for this segment]"
-
-**For [TARGET SEGMENT 3]**:
-"[Value proposition for this segment]"
-
-**For [TARGET SEGMENT 4]** (Optional):
-"[Value proposition for this segment]"
-
-**For [TARGET SEGMENT 5]** (Optional):
-"[Value proposition for this segment]"
+**Educational Content**: Accessible, example-rich, step-by-step
+- "Here's exactly how to structure a topic cluster. Step 1: Pick your pillar keyword..."
 
 ## Writing Style Guidelines
 
 ### Sentence Structure
-- **Vary length**: [Your preference - e.g., "Mix short punchy sentences with longer explanatory ones"]
-- **Active voice preferred**: [Example] not [Counter-example]
-- **Average length**: [X-Y words per sentence]
-- **Clarity first**: [Your rule about clarity and readability]
-
-### Paragraph Structure
-- **Length**: [X-Y sentences typically]
-- **One idea per paragraph**: [Your approach to paragraph focus]
-- **Transitions**: [How you handle paragraph transitions]
-- **White space**: [Your approach to visual readability]
+- **Vary length**: Mix short punchy sentences with data-rich longer ones
+- **Active voice preferred**: "We increased traffic by 40%" not "Traffic was increased by 40%"
+- **Average length**: 12-18 words per sentence
+- **Clarity first**: If a sentence needs re-reading, rewrite it
 
 ### Word Choice
-- **[CHARACTERISTIC 1]**: [Describe your word choice style - e.g., "Conversational: Write how you'd speak to a colleague"]
-- **[CHARACTERISTIC 2]**: [e.g., "Specific: '40% improvement' not 'Better performance'"]
-- **[CHARACTERISTIC 3]**: [e.g., "Active verbs: 'Launch', 'Create', 'Grow', 'Build'"]
-- **[WHAT TO AVOID]**: [e.g., "Avoid fluff: Cut 'very', 'really', 'actually' unless needed"]
+- **Specific over vague**: "340% traffic increase in 6 months" not "significant improvement"
+- **Action verbs**: "Audit", "Fix", "Optimize", "Publish", "Scale"
+- **Avoid fluff**: Cut "very", "really", "actually", "in order to", "it is important to note that"
 
 ### Terminology
 
-<!-- INSTRUCTIONS: Define industry-specific terminology preferences.
-     List preferred terms vs. terms to avoid. -->
+**Say This** --> **Not That**
+- organic traffic --> website visitors (be specific about channel)
+- keyword cannibalization --> keyword overlap
+- topic cluster --> content silo (outdated term)
+- search intent --> what people want (be precise)
+- technical debt --> SEO issues (too vague)
 
-**Say This** → **Not That**
-- [Preferred term] → [Term to avoid] ([Reason why])
-- [Preferred term] → [Term to avoid] ([Reason why])
-- [Preferred term] → [Term to avoid] ([Reason why])
-- [Preferred term] → [Term to avoid] ([Reason why])
-- [Preferred term] → [Term to avoid] ([Reason why])
+## Multi-Client Usage
 
-## Content Formatting
+When writing for a specific client, load their override from `clients/<client-slug>/brand-voice.md`. The client file takes precedence over this agency default.
 
-### Headlines
-- **[RULE 1]**: [e.g., "Be specific: 'How to Grow Your Audience in 2025' not 'Growth Tips'"]
-- **[RULE 2]**: [e.g., "Include benefit: Tell reader what they'll gain"]
-- **[RULE 3]**: [e.g., "Use numbers: '7 Ways...' or 'Complete Guide...'"]
-- **[RULE 4]**: [e.g., "Keep concise: 60 characters or less for SEO"]
-
-### Subheadings
-- **[RULE 1]**: [Your subheading guidelines]
-- **[RULE 2]**: [Your subheading guidelines]
-- **[RULE 3]**: [Your subheading guidelines]
-- **[RULE 4]**: [Your subheading guidelines]
-
-### Lists
-- **[RULE 1]**: [Your list formatting guidelines]
-- **[RULE 2]**: [Your list formatting guidelines]
-- **[RULE 3]**: [Your list formatting guidelines]
-- **[RULE 4]**: [Your list formatting guidelines]
-
-### Calls-to-Action
-- **[RULE 1]**: [Your CTA guidelines]
-- **[RULE 2]**: [Your CTA guidelines]
-- **[RULE 3]**: [Your CTA guidelines]
-- **[RULE 4]**: [Your CTA guidelines]
-
-## Voice Examples
-
-<!-- INSTRUCTIONS: Provide examples of your voice in action, showing both good and bad examples. -->
-
-### Excellent [YOUR COMPANY] Voice ✅
-
-"[Write a full paragraph example that demonstrates your brand voice at its best.
-
-This should include multiple sentences that show your tone, style, word choice, and approach.
-
-Reference your actual product/service and target audience.]"
-
-**Why this works**:
-- [Reason 1 - what makes this good]
-- [Reason 2]
-- [Reason 3]
-- [Reason 4]
-- [Reason 5]
-
-### Not [YOUR COMPANY] Voice ❌
-
-"[Write a full paragraph example that demonstrates what NOT to do.
-
-This should show common mistakes: wrong tone, corporate speak, feature-focused instead of benefit-focused, etc.
-
-This example shows what to avoid.]"
-
-**Why this fails**:
-- [Reason 1 - what makes this bad]
-- [Reason 2]
-- [Reason 3]
-- [Reason 4]
-- [Reason 5]
-
-## Audience Understanding
-
-### Who We Write For
-
-<!-- INSTRUCTIONS: Define your target audience(s) in detail. -->
-
-**Primary Audience**: [PRIMARY AUDIENCE NAME/DESCRIPTION]
-- [Characteristic 1]
-- [Characteristic 2]
-- [Characteristic 3]
-- [Characteristic 4]
-- [Characteristic 5]
-
-**Secondary Audiences**:
-- **[SEGMENT NAME]**: [Brief description]
-- **[SEGMENT NAME]**: [Brief description]
-- **[SEGMENT NAME]**: [Brief description]
-- **[SEGMENT NAME]**: [Brief description]
-
-### What They Care About
-
-**Top Priorities**:
-1. [Priority 1]
-2. [Priority 2]
-3. [Priority 3]
-4. [Priority 4]
-5. [Priority 5]
-
-**Pain Points**:
-1. [Pain point 1]
-2. [Pain point 2]
-3. [Pain point 3]
-4. [Pain point 4]
-5. [Pain point 5]
-
-### How to Serve Them
-
-- **[PRINCIPLE 1]**: [How you serve your audience - e.g., "Respect their time: Get to the point quickly"]
-- **[PRINCIPLE 2]**: [e.g., "Make it actionable: Give specific, implementable advice"]
-- **[PRINCIPLE 3]**: [e.g., "Explain the 'why': Help them understand strategy, not just tactics"]
-- **[PRINCIPLE 4]**: [e.g., "Acknowledge challenges: Show we understand their work"]
-- **[PRINCIPLE 5]**: [e.g., "Celebrate progress: Encourage incremental improvement"]
-
-## Quality Checklist
-
-Before publishing any content, verify:
-
-- [ ] **Voice**: Sounds like [YOUR COMPANY] ([your key voice characteristics])
-- [ ] **Tone**: Appropriate for content type and audience stage
-- [ ] **Value**: Provides genuine, actionable insights for [YOUR AUDIENCE]
-- [ ] **Clarity**: Complex concepts explained simply
-- [ ] **Accuracy**: Technical information is correct
-- [ ] **Examples**: Includes relevant [industry/use case] scenarios
-- [ ] **Action**: Clear next steps or takeaways
-- [ ] **Messaging**: Aligns with core brand messages
-- [ ] **Terminology**: Uses correct [industry] terms
-- [ ] **Empowerment**: Helps [audience] feel capable and confident
+If no client context exists, use this agency voice.
 
 ---
 
-**Remember**: [Write a memorable closing statement that captures the essence of your brand voice and mission. Example: "Every piece of content should make our audience feel more capable and confident. We're not just providing information—we're empowering success."]
+**Remember**: Every piece of content should make the reader smarter about SEO and confident in the next step. We don't sell -- we demonstrate expertise through results.
