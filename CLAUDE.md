@@ -4,10 +4,11 @@
 
 SEO Machine -- forked and adapted as Leo Tan's autonomous SEO agency content engine. Multi-client system that researches, writes, optimizes, and publishes SEO content at scale.
 
-Part of a 3-repo agency system:
+Part of a 4-repo agency system:
 - **seomachine** (this repo): Content engine -- research, write, optimize, publish
-- **seo-audit-tool**: Client-facing audit dashboard (Next.js + Supabase)
-- **build-the-best**: Client SEO management platform (AutoSEO)
+- **seo-audit-tool**: Client-facing audit dashboard (Next.js + Supabase, Vercel)
+- **build-the-best**: AutoSEO platform for client self-serve (React + Supabase, Lovable)
+- **seo-hub-central**: Agency CRM + client portal -- leads, tasks, approvals, GSC data (React + Supabase, Lovable)
 
 ## Multi-Client Architecture
 
@@ -105,19 +106,18 @@ For clients: `clients/<slug>/research/` -> `clients/<slug>/drafts/` -> `clients/
 
 ## Cross-Repo Integration
 
-The `integrations/` directory contains bridge modules that wire the 3 repos together:
+The `integrations/` directory contains bridge modules that wire the 4 repos together:
 
 ```
                     seomachine (this repo)
-                   /          |           \
-          /discover      /new-client     /publish-to-autoseo
-         /analyze         /write          /publish-draft
-        v                  |                    v
-  seo-audit-tool      Content Pipeline     build-the-best
-  (audit + keywords)   topics -> research   (AutoSEO)
-  Google Sheets out    -> drafts -> pub    receive-article webhook
-  Supabase: analyses   quality gate        Supabase: articles
-                       agent cascade       keywords, websites
+               /        |         \           \
+      /discover   /new-client  /publish     /client-report
+      /analyze     /write      /autoseo
+          v           |            v               v
+  seo-audit-tool  Pipeline   build-the-best   seo-hub-central
+  (Audit + KW)   topics->    (AutoSEO)       (Agency CRM)
+  Google Sheets  draft->     receive-article  leads, tasks,
+  Supabase       published   Supabase         approvals, GSC
 ```
 
 ### seo_audit_bridge.py
@@ -139,6 +139,9 @@ The `integrations/` directory contains bridge modules that wire the 3 repos toge
 2. **Keyword sync**: AutoSEO keywords sync into seomachine's target-keywords.md
 3. **Article delivery**: seomachine pushes published articles to AutoSEO via receive-article webhook
 4. **Audit data**: seo-audit-tool Google Sheets linked in client config for reference during writing
+5. **Lead -> Client flow**: seo-hub-central captures leads, converts to clients, creates task templates
+6. **Task delivery**: seomachine content outputs become deliverables in seo-hub-central for client approval
+7. **GSC data**: seo-hub-central stores search_analytics (manual CSV upload from GSC) for performance tracking
 
 ## Reporting
 

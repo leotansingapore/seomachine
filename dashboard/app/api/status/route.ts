@@ -4,7 +4,8 @@ const GH_USER = "leotansingapore";
 const REPOS = [
   { name: "seomachine", role: "Content Engine", emoji: "M" },
   { name: "seo-audit-tool", role: "Audit Dashboard", emoji: "A" },
-  { name: "build-the-best", role: "Client Platform", emoji: "P" },
+  { name: "build-the-best", role: "AutoSEO Platform", emoji: "P" },
+  { name: "seo-hub-central", role: "Agency CRM + Portal", emoji: "C" },
 ];
 
 async function fetchGitHub(path: string) {

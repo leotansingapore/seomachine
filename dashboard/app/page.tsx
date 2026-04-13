@@ -34,6 +34,7 @@ const EXTERNAL_LINKS: Record<string, string> = {
   seomachine: "https://github.com/leotansingapore/seomachine",
   "seo-audit-tool": "https://github.com/leotansingapore/seo-audit-tool",
   "build-the-best": "https://github.com/leotansingapore/build-the-best",
+  "seo-hub-central": "https://github.com/leotansingapore/seo-hub-central",
 };
 
 function timeAgo(dateStr: string): string {
@@ -102,7 +103,7 @@ export default function Home() {
                 label="Commits (7d)"
                 value={data.totalCommits.toString()}
               />
-              <StatCard label="Repos" value="3" />
+              <StatCard label="Repos" value="4" />
               <StatCard
                 label="Open Issues"
                 value={data.repos
@@ -135,15 +136,15 @@ export default function Home() {
                 System Architecture
               </h2>
               <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-6 font-mono text-xs md:text-sm text-zinc-400 whitespace-pre leading-relaxed overflow-x-auto">
-                {`                seomachine (Content Engine)
-               /          |              \\
-      /discover      /new-client     /publish-to-autoseo
-     /analyze         /write          /publish-draft
-        v                |                   v
-  seo-audit-tool    Pipeline          build-the-best
-  (Audit + KW)    topics->draft      (AutoSEO)
-  Google Sheets     ->published     receive-article
-  Supabase        quality gate      Supabase: articles`}
+                {`            seomachine (Content Engine)
+           /        |        \\         \\
+  /discover   /new-client  /publish   /client-report
+  /analyze     /write      /autoseo
+      v           |            v              v
+seo-audit-tool  Pipeline  build-the-best  seo-hub-central
+(Audit + KW)   topics->   (AutoSEO)      (Agency CRM)
+Google Sheets  draft->     receive-       leads, tasks,
+Supabase       published   article        approvals, GSC`}
               </div>
             </section>
 
@@ -182,6 +183,11 @@ export default function Home() {
                   label="seo-audit-tool"
                   href={EXTERNAL_LINKS["seo-audit-tool"]}
                   desc="GitHub"
+                />
+                <QuickLink
+                  label="Agency CRM"
+                  href={EXTERNAL_LINKS["seo-hub-central"]}
+                  desc="seo-hub-central"
                 />
               </div>
             </section>
