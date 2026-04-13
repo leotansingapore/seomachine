@@ -103,7 +103,7 @@ export default function Home() {
                 label="Commits (7d)"
                 value={data.totalCommits.toString()}
               />
-              <StatCard label="Repos" value="4" />
+              <StatCard label="Repos" value="5" />
               <StatCard
                 label="Open Issues"
                 value={data.repos

@@ -27,8 +27,8 @@
       "description": "As a content producer, I want the /write command's agent cascade to include /scrub as the first step to remove AI watermarks before SEO optimization",
       "acceptanceCriteria": ["write.md command references scrub step", "Scrub runs before content-analyzer", "No manual intervention needed"],
       "priority": 3,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Already implemented in write.md lines 244-271"
     },
     {
       "id": "SEO-004",

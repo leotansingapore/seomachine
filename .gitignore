@@ -109,6 +109,13 @@ env/
 .venv/
 
 
+# Output files (generated content, not source)
+output/*
+!output/.gitkeep
+
+# Next.js build
+**/.next/
+
 # GA4 Credentials (additional explicit entry)
 ga4-credentials.json
 google-analytics-credentials.json

@@ -6,6 +6,7 @@ const REPOS = [
   { name: "seo-audit-tool", role: "Audit Dashboard", emoji: "A" },
   { name: "build-the-best", role: "AutoSEO Platform", emoji: "P" },
   { name: "seo-hub-central", role: "Agency CRM + Portal", emoji: "C" },
+  { name: "seo-agency-dashboard", role: "Ops Hub", emoji: "D" },
 ];
 
 async function fetchGitHub(path: string) {
