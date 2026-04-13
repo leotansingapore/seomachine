@@ -35,8 +35,9 @@ API credentials: `data_sources/config/.env` (GA4, GSC, DataForSEO, WordPress).
 ## Commands
 
 ### Agency Commands (new)
-- `/new-client [name, url, industry]` - Onboard a new client, research their site, create content plan
+- `/new-client [name, url, industry]` - Onboard a new client: discover, audit, keyword analysis, content plan (uses seo-audit-tool + AutoSEO bridges)
 - `/client-report [client-slug]` - Generate performance report for a client
+- `/publish-to-autoseo [file] [client-slug]` - Push finished article to AutoSEO for client delivery
 
 ### Content Commands (from upstream)
 - `/research [topic]` - Keyword/competitor research, generates brief in `research/`
@@ -101,6 +102,43 @@ For clients: `clients/<slug>/research/` -> `clients/<slug>/drafts/` -> `clients/
 - `cro-best-practices.md` - Conversion optimization
 - `ai-citation-targets.md` - AI citation targets
 - `reddit-strategy.md` - Reddit/community strategy
+
+## Cross-Repo Integration
+
+The `integrations/` directory contains bridge modules that wire the 3 repos together:
+
+```
+                    seomachine (this repo)
+                   /          |           \
+          /discover      /new-client     /publish-to-autoseo
+         /analyze         /write          /publish-draft
+        v                  |                    v
+  seo-audit-tool      Content Pipeline     build-the-best
+  (audit + keywords)   topics -> research   (AutoSEO)
+  Google Sheets out    -> drafts -> pub    receive-article webhook
+  Supabase: analyses   quality gate        Supabase: articles
+                       agent cascade       keywords, websites
+```
+
+### seo_audit_bridge.py
+- `discover(url, country)` -- quick competitor + keyword discovery
+- `run_audit(url)` -- full technical audit -> Google Sheet
+- `run_keyword_analysis(url, competitors)` -- keyword analysis -> Google Sheet
+- `run_full_analysis(url, competitors)` -- audit + keywords combined
+- `get_analyses(domain)` -- read past audit results from Supabase
+
+### autoseo_bridge.py
+- `get_websites()` -- list all client websites in AutoSEO
+- `get_website_by_domain(domain)` -- find a specific client
+- `get_keywords(website_id)` -- pull client keywords from AutoSEO
+- `push_article(draft_path, website_id)` -- send finished article to AutoSEO
+- `sync_keywords_to_seomachine(website_id, output_path)` -- pull keywords into context/target-keywords.md
+
+### Data Flow Between Repos
+1. **Client onboarding**: seomachine calls seo-audit-tool /api/discover + /api/analyze for initial data
+2. **Keyword sync**: AutoSEO keywords sync into seomachine's target-keywords.md
+3. **Article delivery**: seomachine pushes published articles to AutoSEO via receive-article webhook
+4. **Audit data**: seo-audit-tool Google Sheets linked in client config for reference during writing
 
 ## Reporting
 
