@@ -15,9 +15,9 @@ from collections import defaultdict
 load_dotenv()
 load_dotenv('data_sources/config/.env')
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources', 'modules'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources'))
 
-from dataforseo import DataForSEO
+from modules.dataforseo import DataForSEO
 
 
 def load_config():
