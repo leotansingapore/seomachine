@@ -130,15 +130,48 @@ class AutoSEOBridge:
         if website_id:
             payload["website_id"] = website_id
 
-        resp = requests.post(
-            self.receive_article_url,
-            headers=self._headers(),
-            json=payload,
-            timeout=60,
-        )
-        resp.raise_for_status()
-        print(f"Article pushed to AutoSEO: {payload['title']}")
-        return resp.json()
+        receipt_dir = os.path.dirname(draft_path)
+        receipt_base = os.path.splitext(os.path.basename(draft_path))[0]
+        try:
+            resp = requests.post(
+                self.receive_article_url,
+                headers=self._headers(),
+                json=payload,
+                timeout=60,
+            )
+            resp.raise_for_status()
+            result = resp.json()
+            receipt = {
+                "pushed_at": datetime.now().isoformat(),
+                "article_id": result.get("id") if isinstance(result, dict) else None,
+                "website_id": website_id,
+                "response_status": resp.status_code,
+                "source_draft": os.path.abspath(draft_path),
+                "title": payload["title"],
+                "slug": payload["slug"],
+            }
+            receipt_path = os.path.join(receipt_dir, f"{receipt_base}.receipt.json")
+            with open(receipt_path, "w") as f:
+                json.dump(receipt, f, indent=2)
+            # Clean up any prior failure sidecar
+            failure_path = os.path.join(receipt_dir, f"{receipt_base}.failure.json")
+            if os.path.exists(failure_path):
+                os.remove(failure_path)
+            print(f"Article pushed to AutoSEO: {payload['title']} (receipt: {receipt_path})")
+            return result
+        except Exception as e:
+            failure = {
+                "failed_at": datetime.now().isoformat(),
+                "error": str(e),
+                "website_id": website_id,
+                "source_draft": os.path.abspath(draft_path),
+                "title": payload.get("title"),
+            }
+            failure_path = os.path.join(receipt_dir, f"{receipt_base}.failure.json")
+            with open(failure_path, "w") as f:
+                json.dump(failure, f, indent=2)
+            print(f"Article push FAILED: {e} (failure log: {failure_path})")
+            raise
 
     def sync_keywords_to_seomachine(self, website_id, output_path):
         """Pull AutoSEO keywords and write them to a seomachine target-keywords file."""

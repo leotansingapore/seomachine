@@ -29,6 +29,10 @@ Publishes a draft article from this project to WordPress as a Draft, with all SE
 
 ## What This Command Does
 
+0. **Quality gate (MANDATORY)** - Runs `python3 tools/quality_gate.py <file> [--client <slug>]` first.
+   - Composite score must reach 75 (default threshold) across SEO, readability, and keyword distribution.
+   - If the gate fails, the article is held in `review-required/` with a `.score.json` sidecar and this command aborts.
+   - If the gate passes, the article is moved to `published/` (or `clients/<slug>/published/`) and scoring logged to `output/quality-log.jsonl`.
 1. **Parses the draft file** - Extracts all metadata from frontmatter
 2. **Converts Markdown to HTML** - Formats content for WordPress
 3. **Creates WordPress draft** - Posts via REST API with status "draft"

@@ -22,3 +22,7 @@ CB_SAME_ERROR_THRESHOLD=5
 CB_OUTPUT_DECLINE_THRESHOLD=70
 
 CLAUDE_AUTO_UPDATE=true
+
+# Protected paths -- Ralph must not modify these.
+# Enforced by .githooks/pre-commit (see CONTRIBUTING.md for install).
+PROTECTED_PATHS=".ralph/:.ralphrc:.claude/commands/:context/:clients/.template/"

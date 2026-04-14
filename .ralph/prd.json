@@ -4,22 +4,32 @@
   "description": "Autonomous improvements to the SEO content engine",
   "userStories": [
     {
-      "id": "SEO-001",
-      "title": "Add content pipeline health dashboard API",
-      "description": "As an agency operator, I want the /api/status endpoint to also return pipeline counts (topics, research, drafts, published, review-required) so the dashboard shows content flow metrics",
-      "acceptanceCriteria": ["API returns pipeline counts per directory", "Dashboard page.tsx renders pipeline section", "Build passes"],
-      "priority": 1,
-      "passes": false,
-      "notes": ""
-    },
-    {
       "id": "SEO-002",
       "title": "Add client directory listing to dashboard API",
       "description": "As an agency operator, I want the dashboard to show all onboarded clients from clients/ directory with their config.json summary",
-      "acceptanceCriteria": ["API returns client list with name, website, article target", "Dashboard renders client cards", "Build passes"],
+      "acceptanceCriteria": [
+        "API /api/clients returns array of {slug, name, website, article_target} reading each clients/<slug>/config.json",
+        "Dashboard page.tsx renders a Clients section with one card per client",
+        "Excludes clients/.template",
+        "cd dashboard && npm run build passes"
+      ],
+      "priority": 1,
+      "passes": false,
+      "notes": "Promoted from P2 to P1 -- unblocks multi-client visibility. SEO-001 blocked Ralph with no-diff."
+    },
+    {
+      "id": "SEO-001",
+      "title": "Add content pipeline health dashboard API",
+      "description": "As an agency operator, I want the /api/status endpoint to also return pipeline counts (topics, research, drafts, published, review-required) so the dashboard shows content flow metrics",
+      "acceptanceCriteria": [
+        "GET /api/status returns {pipeline: {topics, research, drafts, review_required, published}} with integer counts",
+        "Counts reflect both top-level dirs and clients/*/ dirs combined",
+        "Dashboard page.tsx renders a Pipeline section with each count",
+        "cd dashboard && npm run build passes"
+      ],
       "priority": 2,
       "passes": false,
-      "notes": ""
+      "notes": "Previously tried by Ralph but produced no diffs. Acceptance criteria made more concrete."
     },
     {
       "id": "SEO-003",
@@ -41,10 +51,54 @@
     },
     {
       "id": "SEO-005",
-      "title": "Add automated quality scoring to published articles",
-      "description": "As a content producer, I want every article that moves to published/ to automatically get a quality score logged, tracking improvement over time",
-      "acceptanceCriteria": ["Score tracked in output/quality-log.jsonl", "Each entry has: date, article, scores, composite", "Can chart improvement over time"],
+      "title": "Gate publish on quality score composite",
+      "description": "As a content producer, I want every article to be auto-scored BEFORE moving to published/. If composite < threshold (default 75), the article is held in review-required/ with the score log.",
+      "acceptanceCriteria": [
+        "tools/quality_gate.py reads markdown + runs seo_quality_rater + readability + keyword analyzers",
+        "Score appended to output/quality-log.jsonl with {date, article, client, scores, composite}",
+        "Below threshold: article stays in review-required/ with a .score.json sidecar; above threshold: moves to published/",
+        "publish-draft.md command references the gate as step 1"
+      ],
       "priority": 5,
+      "passes": false,
+      "notes": "Replaces the old post-publish scoring story -- gate BEFORE publish, not after."
+    },
+    {
+      "id": "SEO-006",
+      "title": "Add publish receipt callback from AutoSEO",
+      "description": "As an agency operator, I want confirmation that articles pushed to AutoSEO actually landed. autoseo_bridge.push_article should write a receipt to clients/<slug>/published/<slug>.receipt.json on success.",
+      "acceptanceCriteria": [
+        "push_article writes receipt with {pushed_at, article_id, website_id, response_status, source_draft}",
+        "Failure writes a .failure.json sidecar with error text",
+        "publish-to-autoseo.md documents the receipt location"
+      ],
+      "priority": 6,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "SEO-007",
+      "title": "Consolidate research scripts behind single CLI",
+      "description": "As a developer, I want one `research.py` CLI that dispatches to the existing research_*.py modules via subcommands, so new clients have one tool to learn.",
+      "acceptanceCriteria": [
+        "research.py with subcommands: serp, gaps, trending, performance, topics, priorities, quick-wins, competitor-gaps, performance-matrix",
+        "Each subcommand imports and runs main() of the matching research_*.py file",
+        "--help lists all subcommands"
+      ],
+      "priority": 7,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "SEO-008",
+      "title": "Version context/ presets with frozen snapshots",
+      "description": "As an agency operator, I want context/ changes to be versioned so I can roll back bad edits that affect all clients.",
+      "acceptanceCriteria": [
+        "context/VERSION file tracks semver bumped on each change",
+        "tools/context_snapshot.py copies current context/ to context/.snapshots/v<version>/",
+        "context/CHANGELOG.md records each snapshot reason"
+      ],
+      "priority": 8,
       "passes": false,
       "notes": ""
     }

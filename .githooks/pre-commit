@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Pre-commit hook: block edits to protected paths when running as Ralph.
+# Install: git config core.hooksPath .githooks
+
+set -euo pipefail
+
+PROTECTED=(
+  ".ralph/"
+  ".ralphrc"
+  ".claude/commands/"
+  "context/"
+  "clients/.template/"
+)
+
+# Only enforce for ralph branch
+BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "")
+if [[ "$BRANCH" != "ralph/autonomous" ]]; then
+  exit 0
+fi
+
+STAGED=$(git diff --cached --name-only)
+
+for f in $STAGED; do
+  for p in "${PROTECTED[@]}"; do
+    if [[ "$f" == "$p"* ]]; then
+      echo "ERROR: Ralph cannot modify protected path: $f"
+      echo "Protected paths: ${PROTECTED[*]}"
+      exit 1
+    fi
+  done
+done
+
+exit 0
