@@ -1,6 +1,6 @@
 ---
-Meta Title: On-Page SEO Checklist: 43 Checks for 2026
-Meta Description: The complete on-page SEO checklist: title tags, meta descriptions, headings, content, internal links, images, and Core Web Vitals. Prioritized by ranking impact.
+Meta Title: On-Page SEO Checklist: 43 Checks Ranked by Impact (2026)
+Meta Description: The complete on-page SEO checklist: title tags, meta descriptions, headings, content, internal links, images, Core Web Vitals — prioritized by ranking impact.
 Primary Keyword: on-page SEO checklist
 Secondary Keywords: on-page SEO optimization, on-page SEO factors, on-page SEO techniques, on-page SEO guide
 URL Slug: /blog/on-page-seo-checklist
