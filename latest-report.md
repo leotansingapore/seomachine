@@ -1,22 +1,19 @@
-# SEO Agency Status Report — 2026-05-04
+# SEO Agency Status Report — 2026-05-14
 
-## What got done
+## ✅ What got done
+- **seomachine** hit 3/3 daily ops runs in a row — published articles on content brief writing, low-competition keywords, and long-tail keywords. Pipeline is running clean and on schedule.
+- **seo-audit-tool** shipped better keyword targeting (topic-first reasoning + cross-chunk deduplication) and fixed two UX friction points: back navigation so users can edit keyword selections, and prompt regeneration when keyword selection changes after the Keyword Map step.
+- **build-the-best** delivered a drag-and-drop Kanban roadmap with DB persistence back in mid-March — good scaffolding for tracking upcoming work once dev resumes.
 
-- **seo-audit-tool** shipped a complete competitor slide deck rewrite (Apr 29): 10-slide deck with bar charts, domain overview table, and recommended keywords. Switched from Moz to DataForSEO Backlinks API after Moz quota ran out. Real deliverable, out the door.
-- **seo-audit-tool** rebuilt keyword mapping with an 11-column layout and swapped Gemini (daily quota hitting limits) for Claude Haiku 4.5. Site map illustration now parses the live nav directly so it matches what visitors actually see (Apr 22–24).
-- **seomachine** ran its content pipeline: researched and wrote a 2,950-word SEO content strategy article scored 91.4/100. Sitting in `review-required/` waiting on WordPress setup to go live (Apr 22).
+## 🔜 What's next
+- **seomachine**: `ToDo.md` is empty — worth capturing next article topics before the daily queue runs dry. Consider adding a topic pipeline to keep ops running without manual intervention.
+- **seo-audit-tool**: Keyword flow is now solid. PRD lists on-page SEO and technical audit improvements as next up. A test pass before the next client demo is smart.
+- **build-the-best**: Priority 1 per `program.md` is wiring `ArticleSettings` to Supabase — settings currently don't persist at all, which makes the product feel broken on first use.
 
-## What's next
-
-- Unblock WordPress publishing — seomachine has a scored, scrubbed article in `review-required/` ready to publish. WordPress setup is the only thing in the way.
-- Apply the pending Supabase migration in seo-audit-tool (`supabase/migrations/20260424_add_folder_url.sql`) to activate the per-analysis Google Drive folder feature and surface the "Reports Folder" button for clients.
-- Restart build-the-best — the AutoSEO platform has 21 production tasks tracked in a Kanban board and hasn't had a commit since March 15. Needs a decision: prioritise or park it.
-
-## Needs attention
-
-- **Zero commits across all 3 repos in the last 3 days** (May 1–4). Could be a long weekend, worth a quick check-in with the team.
-- **build-the-best is effectively stalled** — last commit was March 15, nearly 7 weeks ago. If this repo is still a priority, it needs someone assigned to it now.
-- **build-the-best has a `.env` file committed to the repo** — this is a credentials leak. The file needs to be removed from git history and all secrets in it rotated ASAP.
+## 🚨 Needs attention
+- **build-the-best has gone silent** — zero commits in the last 3 days, last push was **March 15** (2 months ago). Multiple known bugs still open: settings not persisting to Supabase, hardcoded mock data throughout (`Social.tsx`, `ArticleSettings.tsx`), fake article generation (`setTimeout` with no real AI call), no multi-website switcher.
+- **seomachine has no written backlog** — `ToDo.md` is empty. If the daily ops runner ever needs a topic and the queue is empty, everything stalls with zero visibility.
+- **seo-audit-tool is the only repo moving** right now — it's carrying all the momentum. If it's the primary client-facing tool, any bugs here land directly with clients.
 
 ---
-_Generated: 2026-05-04 | Google Sheet row 7 appended | Lark: chat not found, report saved here instead_
+*Generated: 2026-05-14 | Commits (last 3 days): seomachine 3 · seo-audit-tool 3 · build-the-best 0 | Total: 6 | Lark: chat not found, report saved here instead*
