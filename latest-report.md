@@ -1,19 +1,19 @@
-# SEO Agency Status Report — 2026-05-14
+# SEO Agency Status Report — 2026-05-18
 
-## ✅ What got done
-- **seomachine** hit 3/3 daily ops runs in a row — published articles on content brief writing, low-competition keywords, and long-tail keywords. Pipeline is running clean and on schedule.
-- **seo-audit-tool** shipped better keyword targeting (topic-first reasoning + cross-chunk deduplication) and fixed two UX friction points: back navigation so users can edit keyword selections, and prompt regeneration when keyword selection changes after the Keyword Map step.
-- **build-the-best** delivered a drag-and-drop Kanban roadmap with DB persistence back in mid-March — good scaffolding for tracking upcoming work once dev resumes.
+## What got done
+- **seomachine** cranked out 5 articles in the last 10 days: link building for B2B SaaS (May 15), content brief writing, low-competition keywords, long-tail keywords, keyword difficulty explained. Daily cadence is holding.
+- **seo-audit-tool** shipped better keyword targeting on May 13 — topic-first reasoning + cross-chunk dedup. Users can now go back and edit keyword selections mid-flow without losing progress.
+- **build-the-best** delivered a Kanban roadmap tracker with drag-and-drop and DB persistence — but that was back in March. Nothing since.
 
-## 🔜 What's next
-- **seomachine**: `ToDo.md` is empty — worth capturing next article topics before the daily queue runs dry. Consider adding a topic pipeline to keep ops running without manual intervention.
-- **seo-audit-tool**: Keyword flow is now solid. PRD lists on-page SEO and technical audit improvements as next up. A test pass before the next client demo is smart.
-- **build-the-best**: Priority 1 per `program.md` is wiring `ArticleSettings` to Supabase — settings currently don't persist at all, which makes the product feel broken on first use.
+## What's next
+- **seomachine**: website crawl errors article is in the pipeline (research brief done May 14). Keep the daily run going through Cluster 4.
+- **seo-audit-tool**: Mobile CRO audit, on-page SEO sheet, and content manual are all built per the PRD — needs a QA and client testing pass before next demo.
+- **build-the-best**: Priority 1 per `program.md` is wiring `ArticleSettings` to Supabase. Most visible "broken to users" issue — should be the first thing someone picks up.
 
-## 🚨 Needs attention
-- **build-the-best has gone silent** — zero commits in the last 3 days, last push was **March 15** (2 months ago). Multiple known bugs still open: settings not persisting to Supabase, hardcoded mock data throughout (`Social.tsx`, `ArticleSettings.tsx`), fake article generation (`setTimeout` with no real AI call), no multi-website switcher.
-- **seomachine has no written backlog** — `ToDo.md` is empty. If the daily ops runner ever needs a topic and the queue is empty, everything stalls with zero visibility.
-- **seo-audit-tool is the only repo moving** right now — it's carrying all the momentum. If it's the primary client-facing tool, any bugs here land directly with clients.
+## Needs attention
+- **build-the-best is dark** — last commit was March 15, over 2 months ago. Known issues stacking up: article pipeline missing, settings don't persist to Supabase, `Social.tsx` is 100% hardcoded, no multi-website switcher. Needs a dev assigned now.
+- **seo-audit-tool has gone quiet** for 5 days after a burst of activity. No issues tracked — risk of things slipping without visibility.
+- **seomachine**: only 1 commit in the strict 3-day window. Daily runs looked healthy before that but worth confirming the automation is still firing.
 
 ---
-*Generated: 2026-05-14 | Commits (last 3 days): seomachine 3 · seo-audit-tool 3 · build-the-best 0 | Total: 6 | Lark: chat not found, report saved here instead*
+*Generated: 2026-05-18 | Commits (last 3 days): seomachine: 1 · seo-audit-tool: 0 · build-the-best: 0 | Total: 1 | Lark: chat not found, report saved here instead*
