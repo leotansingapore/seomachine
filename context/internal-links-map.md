@@ -1,224 +1,179 @@
 # Internal Links Map
 
-<!-- INSTRUCTIONS: This document catalogs key pages on your website that should be referenced
-     in blog content for strategic internal linking.
+This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-     Fill in all sections with your actual URLs and linking guidelines.
-     This helps Claude create relevant internal links while writing content.
-
-     Delete these instruction comments when done.
-     See examples/castos/internal-links-map.md for a complete real-world example. -->
-
-This document catalogs key [YOUR COMPANY] pages that should be referenced in blog content for strategic internal linking. Use this as your go-to reference when adding internal links to articles.
-
-## Instructions
-
-Fill in URLs and descriptions for all important pages on your website. Update as new content is created or pages are updated.
-
-For each page, include:
-- **URL**: The full URL to the page
-- **When to Link**: Context or topics where this link is relevant
-- **Anchor Text Examples**: Natural phrases to use when linking
+**Last Updated**: 2026-05-25  
+**Total articles in pipeline**: 14 in review-required, 0 published  
+**Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
 
 ## Homepage & Core Pages
 
 ### Homepage
-- **URL**: https://[yoursite.com]
-- **When to Link**: [e.g., "Rarely; only when referencing your company broadly"]
-- **Anchor Text Examples**: "[your company name]", "our platform", "[your product]"
-
-### About Page
-- **URL**: https://[yoursite.com/about]
-- **When to Link**: [e.g., "When discussing company mission, values, or team"]
-- **Anchor Text Examples**: "about [company]", "our mission", "our story"
+- **URL**: `/` (TBD once WordPress live)
+- **When to Link**: Rarely — only when referencing the agency broadly
+- **Anchor Text Examples**: "Leo Tan SEO Agency", "our agency", "our SEO team"
 
 ### Contact Page
-- **URL**: https://[yoursite.com/contact]
-- **When to Link**: [e.g., "When inviting readers to reach out"]
-- **Anchor Text Examples**: "contact us", "get in touch", "reach out"
-
-### Pricing Page
-- **URL**: https://[yoursite.com/pricing]
-- **When to Link**: [e.g., "When discussing costs, plans, or pricing"]
-- **Anchor Text Examples**: "[product] pricing", "pricing plans", "see pricing"
+- **URL**: `/contact`
+- **When to Link**: Every article CTA — final paragraph or sidebar
+- **Anchor Text Examples**: "contact us", "get in touch", "talk to our team", "book a consultation"
 
 ---
 
-## Product/Service Pages
+## Cluster 1: Technical SEO
 
-<!-- INSTRUCTIONS: Add your main product or service pages -->
+### Technical SEO Audit (PILLAR)
+- **URL**: `/blog/technical-seo-audit`
+- **Primary Keyword**: technical SEO audit
+- **When to Link**: Any article discussing crawl issues, indexation, site health, Core Web Vitals, technical fixes, site migrations
+- **Anchor Text Examples**: "technical SEO audit", "technical audit", "audit your site's technical health", "full technical SEO audit"
 
-### [Product/Service Name 1]
-- **URL**: https://[yoursite.com/product-1]
-- **When to Link**: [Topics/contexts where this is relevant]
-- **Anchor Text Examples**: "[descriptive phrase]", "[benefit-focused phrase]", "[feature name]"
+### On-Page SEO Checklist (Supporting #1)
+- **URL**: `/blog/on-page-seo-checklist`
+- **Primary Keyword**: on-page SEO checklist
+- **When to Link**: Articles about title tags, meta descriptions, headings, content optimization, internal linking basics
+- **Anchor Text Examples**: "on-page SEO checklist", "on-page optimization", "on-page SEO factors"
 
-### [Product/Service Name 2]
-- **URL**: https://[yoursite.com/product-2]
-- **When to Link**: [Topics/contexts where this is relevant]
-- **Anchor Text Examples**: "[descriptive phrase]", "[benefit-focused phrase]", "[feature name]"
-
-### [Product/Service Name 3]
-- **URL**: https://[yoursite.com/product-3]
-- **When to Link**: [Topics/contexts where this is relevant]
-- **Anchor Text Examples**: "[descriptive phrase]", "[benefit-focused phrase]", "[feature name]"
-
----
-
-## Feature Pages
-
-<!-- INSTRUCTIONS: Add pages for specific features or capabilities -->
-
-### [Feature Name 1]
-- **URL**: https://[yoursite.com/feature-1]
-- **When to Link**: In articles about [relevant topics]
-- **Anchor Text Examples**: "[feature name]", "[what it does]", "[benefit phrase]"
-
-### [Feature Name 2]
-- **URL**: https://[yoursite.com/feature-2]
-- **When to Link**: In articles about [relevant topics]
-- **Anchor Text Examples**: "[feature name]", "[what it does]", "[benefit phrase]"
-
-### [Feature Name 3]
-- **URL**: https://[yoursite.com/feature-3]
-- **When to Link**: In articles about [relevant topics]
-- **Anchor Text Examples**: "[feature name]", "[what it does]", "[benefit phrase]"
+### Website Crawl Errors (Supporting #2)
+- **URL**: `/blog/website-crawl-errors`
+- **Primary Keyword**: website crawl errors
+- **When to Link**: Articles discussing crawlability, indexation problems, GSC Coverage report, 404s, redirect issues
+- **Anchor Text Examples**: "website crawl errors", "crawl errors", "fix crawl issues", "Google's ability to crawl your site"
 
 ---
 
-## Use Case / Solution Pages
+## Cluster 2: Content Strategy
 
-<!-- INSTRUCTIONS: Add pages for specific use cases, industries, or customer segments -->
+### SEO Content Strategy (PILLAR)
+- **URL**: `/blog/seo-content-strategy`
+- **Primary Keyword**: SEO content strategy
+- **When to Link**: Any article discussing topic clusters, content planning, editorial calendars, content ROI, organic traffic growth strategy
+- **Anchor Text Examples**: "SEO content strategy", "content strategy", "building a content strategy", "content-led SEO"
 
-### [Use Case 1]
-- **URL**: https://[yoursite.com/use-case-1]
-- **When to Link**: In articles targeting [audience segment] or discussing [problem/solution]
-- **Anchor Text Examples**: "[use case description]", "[for whom]", "[solution phrase]"
+### Content Gap Analysis (Supporting #1)
+- **URL**: `/blog/content-gap-analysis`
+- **Primary Keyword**: content gap analysis
+- **When to Link**: Articles about keyword research, competitor analysis, finding topics to write about, keyword gaps
+- **Anchor Text Examples**: "content gap analysis", "keyword gap analysis", "find what your competitors rank for", "content gaps"
 
-### [Use Case 2]
-- **URL**: https://[yoursite.com/use-case-2]
-- **When to Link**: In articles targeting [audience segment] or discussing [problem/solution]
-- **Anchor Text Examples**: "[use case description]", "[for whom]", "[solution phrase]"
-
----
-
-## Resource Pages
-
-<!-- INSTRUCTIONS: Add links to guides, tools, templates, or other resources -->
-
-### [Resource Name 1]
-- **URL**: https://[yoursite.com/resources/resource-1]
-- **When to Link**: [When this resource would help the reader]
-- **Anchor Text Examples**: "[resource name]", "[what it provides]", "free [resource type]"
-
-### [Resource Name 2]
-- **URL**: https://[yoursite.com/resources/resource-2]
-- **When to Link**: [When this resource would help the reader]
-- **Anchor Text Examples**: "[resource name]", "[what it provides]", "free [resource type]"
+### How to Write a Content Brief (Supporting #2)
+- **URL**: `/blog/how-to-write-a-content-brief`
+- **Primary Keyword**: how to write a content brief
+- **When to Link**: Articles about content production workflow, briefing writers, content operations, scaling content
+- **Anchor Text Examples**: "content brief", "how to write a content brief", "content brief template", "brief your writers"
 
 ---
 
-## Top-Performing Blog Posts
+## Cluster 3: Keyword Research
 
-<!-- INSTRUCTIONS: Add your 10-20 best blog posts that get good traffic and conversions.
-     These are "pillar content" you want to link to frequently. -->
+### Keyword Research for SEO (PILLAR)
+- **URL**: `/blog/keyword-research-for-seo`
+- **Primary Keyword**: keyword research for SEO
+- **When to Link**: Any article discussing how to choose topics, keyword strategy, finding search demand, keyword tools
+- **Anchor Text Examples**: "keyword research", "keyword research for SEO", "find the right keywords", "keyword strategy"
 
-### [Blog Post Title 1]
-- **URL**: https://[yoursite.com/blog/post-1]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
+### Keyword Difficulty Explained (Supporting #1)
+- **URL**: `/blog/keyword-difficulty-explained`
+- **Primary Keyword**: keyword difficulty
+- **When to Link**: Articles about choosing keywords, competitive analysis, keyword selection criteria, KD scores
+- **Anchor Text Examples**: "keyword difficulty", "keyword difficulty score", "how hard a keyword is to rank for", "KD score"
 
-### [Blog Post Title 2]
-- **URL**: https://[yoursite.com/blog/post-2]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
+### Long-Tail Keywords (Supporting #2)
+- **URL**: `/blog/long-tail-keywords`
+- **Primary Keyword**: long-tail keywords
+- **When to Link**: Articles about keyword strategy, finding low-competition opportunities, conversion-focused SEO, niche targeting
+- **Anchor Text Examples**: "long-tail keywords", "long-tail keyword strategy", "more specific search queries", "low-volume high-intent keywords"
 
-### [Blog Post Title 3]
-- **URL**: https://[yoursite.com/blog/post-3]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
-
-### [Blog Post Title 4]
-- **URL**: https://[yoursite.com/blog/post-4]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
-
-### [Blog Post Title 5]
-- **URL**: https://[yoursite.com/blog/post-5]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
-
-<!-- Add 5-15 more of your top blog posts following the same format -->
+### Low Competition Keywords (Supporting #3)
+- **URL**: `/blog/low-competition-keywords`
+- **Primary Keyword**: low competition keywords
+- **When to Link**: Articles about ranking for new sites, keyword selection for early-stage businesses, quick SEO wins
+- **Anchor Text Examples**: "low competition keywords", "easy keywords to rank for", "low difficulty keywords", "keywords you can actually rank for"
 
 ---
 
-## Comparison Pages
+## Cluster 4: Link Building
 
-<!-- INSTRUCTIONS: If you have comparison or "vs" pages, add them here -->
+### Link Building for B2B SaaS (PILLAR)
+- **URL**: `/blog/link-building-b2b-saas`
+- **Primary Keyword**: link building for B2B SaaS
+- **When to Link**: Any article discussing backlinks, domain authority, off-page SEO, link acquisition
+- **Anchor Text Examples**: "link building for B2B SaaS", "link building", "earning backlinks", "off-page SEO strategy"
 
-### [Your Product] vs [Competitor 1]
-- **URL**: https://[yoursite.com/vs/competitor-1]
-- **When to Link**: When mentioning [competitor] or discussing alternatives
-- **Anchor Text Examples**: "[your product] vs [competitor]", "comparison with [competitor]"
+### Anchor Text Optimization (Supporting #1)
+- **URL**: `/blog/anchor-text-optimization`
+- **Primary Keyword**: anchor text optimization
+- **When to Link**: Articles discussing backlinks, internal linking, link profile audits, avoiding Penguin penalties
+- **Anchor Text Examples**: "anchor text optimization", "anchor text strategy", "your anchor text profile", "anchor text distribution"
 
-### [Your Product] vs [Competitor 2]
-- **URL**: https://[yoursite.com/vs/competitor-2]
-- **When to Link**: When mentioning [competitor] or discussing alternatives
-- **Anchor Text Examples**: "[your product] vs [competitor]", "comparison with [competitor]"
+### Link Prospecting for SaaS (Supporting #2)
+- **URL**: `/blog/link-prospecting-for-saas`
+- **Primary Keyword**: link prospecting for SaaS
+- **When to Link**: Articles about link building outreach, finding link opportunities, building an outreach list
+- **Anchor Text Examples**: "link prospecting for SaaS", "link prospecting", "finding link prospects", "qualified link opportunities"
+
+### Digital PR for B2B SaaS (Supporting #3)
+- **URL**: `/blog/digital-pr-for-b2b-saas`
+- **Primary Keyword**: digital PR for B2B SaaS
+- **When to Link**: Articles about earning editorial links, PR-led link building, media outreach, original research as SEO
+- **Anchor Text Examples**: "digital PR for B2B SaaS", "digital PR", "earning editorial links", "PR-driven link building"
 
 ---
 
-## Landing Pages
+## Cluster 5: SEO Reporting & Analytics
 
-<!-- INSTRUCTIONS: Add any campaign-specific or conversion-optimized landing pages -->
+*(Articles in progress — add slugs as written)*
 
-### [Campaign/Offer Name]
-- **URL**: https://[yoursite.com/landing/offer-1]
-- **When to Link**: [Specific contexts for this offer]
-- **Anchor Text Examples**: "[offer description]", "[call to action]", "[benefit phrase]"
-
----
-
-## Internal Linking Best Practices
-
-When adding internal links to blog content:
-
-1. **Link Naturally**: Only link when genuinely relevant and helpful to the reader
-2. **Vary Anchor Text**: Use different phrases for the same destination URL
-3. **3-5 Links Per Post**: Aim for 3-5 strategic internal links in each blog post
-4. **Deep Linking**: Link to specific relevant pages, not just the homepage
-5. **Early Links Matter**: Links in the first few paragraphs carry more weight
-6. **Update This Map**: Add new pages as you create them, remove outdated URLs
+### SEO Reporting (PILLAR)
+- **URL**: `/blog/seo-reporting` *(planned)*
+- **Primary Keyword**: SEO reporting
+- **When to Link**: Articles about measuring SEO results, client communication, SEO dashboards, KPIs
+- **Anchor Text Examples**: "SEO reporting", "how to report SEO results", "SEO metrics and reporting", "track your SEO performance"
 
 ---
 
 ## Quick Reference by Topic
 
-<!-- INSTRUCTIONS: Create a quick topic-to-URL mapping for common themes you write about.
-     This helps Claude quickly find relevant links while writing. -->
+**When writing about technical SEO issues**, link to:
+- `/blog/technical-seo-audit` — comprehensive audit guide
+- `/blog/website-crawl-errors` — specific crawl error types and fixes
+- `/blog/on-page-seo-checklist` — on-page optimization factors
 
-**When writing about [Topic 1]**, link to:
-- [URL 1] - [Brief description]
-- [URL 2] - [Brief description]
-- [URL 3] - [Brief description]
+**When writing about content strategy**, link to:
+- `/blog/seo-content-strategy` — the full strategic framework
+- `/blog/content-gap-analysis` — finding keyword gaps
+- `/blog/how-to-write-a-content-brief` — briefing writers
 
-**When writing about [Topic 2]**, link to:
-- [URL 1] - [Brief description]
-- [URL 2] - [Brief description]
-- [URL 3] - [Brief description]
+**When writing about keyword research**, link to:
+- `/blog/keyword-research-for-seo` — the complete process
+- `/blog/keyword-difficulty-explained` — how to assess competition
+- `/blog/long-tail-keywords` — lower-competition opportunities
+- `/blog/low-competition-keywords` — finding winnable targets
 
-**When writing about [Topic 3]**, link to:
-- [URL 1] - [Brief description]
-- [URL 2] - [Brief description]
-- [URL 3] - [Brief description]
+**When writing about link building**, link to:
+- `/blog/link-building-b2b-saas` — the strategic framework
+- `/blog/anchor-text-optimization` — anchor text best practices
+- `/blog/link-prospecting-for-saas` — building a prospect list
+- `/blog/digital-pr-for-b2b-saas` — PR-driven link acquisition
+
+**When writing about measuring SEO / reporting**, link to:
+- `/blog/seo-reporting` — full reporting guide (Cluster 5 pillar, in progress)
+- `/blog/keyword-research-for-seo` — keyword tracking context
+- `/blog/seo-content-strategy` — content performance metrics
 
 ---
 
-*Note: Keep this document updated as you publish new content or restructure your site. Accurate internal linking improves SEO and user experience.*
+## Internal Linking Best Practices
+
+1. **3–5 links per article**: Strategic, not decorative
+2. **Link early**: First 20% of article carries more weight
+3. **Vary anchor text**: Use different natural phrases for the same URL
+4. **Cluster logic**: Always link to the pillar from supporting articles
+5. **Cross-cluster**: Link between clusters when genuinely relevant
+6. **CTA last**: Close every article with a `/contact` link
+
+---
+
+*Update this file every time a new article is drafted. Accurate internal linking requires knowing what exists before writing.*
