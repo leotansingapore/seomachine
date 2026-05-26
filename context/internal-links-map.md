@@ -124,13 +124,17 @@ This document catalogs published and in-progress blog articles for strategic int
 
 ## Cluster 5: SEO Reporting & Analytics
 
-*(Articles in progress — add slugs as written)*
-
 ### SEO Reporting (PILLAR)
 - **URL**: `/blog/seo-reporting` *(planned)*
 - **Primary Keyword**: SEO reporting
 - **When to Link**: Articles about measuring SEO results, client communication, SEO dashboards, KPIs
 - **Anchor Text Examples**: "SEO reporting", "how to report SEO results", "SEO metrics and reporting", "track your SEO performance"
+
+### Google Search Console Tutorial (Supporting #1)
+- **URL**: `/blog/google-search-console-tutorial` *(planned)*
+- **Primary Keyword**: Google Search Console tutorial
+- **When to Link**: Articles discussing GSC setup, indexing issues, organic traffic data, keyword ranking checks, traffic drop diagnosis, technical SEO
+- **Anchor Text Examples**: "Google Search Console", "Google Search Console tutorial", "how to use GSC", "set up Google Search Console"
 
 ---
 
@@ -160,6 +164,7 @@ This document catalogs published and in-progress blog articles for strategic int
 
 **When writing about measuring SEO / reporting**, link to:
 - `/blog/seo-reporting` — full reporting guide (Cluster 5 pillar, in progress)
+- `/blog/google-search-console-tutorial` — GSC setup, indexing data, performance reports
 - `/blog/keyword-research-for-seo` — keyword tracking context
 - `/blog/seo-content-strategy` — content performance metrics
 
