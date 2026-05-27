@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-05-25  
-**Total articles in pipeline**: 14 in review-required, 0 published  
+**Last Updated**: 2026-05-27  
+**Total articles in pipeline**: 17 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -136,6 +136,12 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing GSC setup, indexing issues, organic traffic data, keyword ranking checks, traffic drop diagnosis, technical SEO
 - **Anchor Text Examples**: "Google Search Console", "Google Search Console tutorial", "how to use GSC", "set up Google Search Console"
 
+### GA4 SEO Tracking (Supporting #2)
+- **URL**: `/blog/ga4-seo-tracking` *(planned)*
+- **Primary Keyword**: GA4 SEO tracking
+- **When to Link**: Articles discussing analytics setup, conversion tracking, measuring organic traffic, organic channel reporting, SEO dashboards, GA4 + GSC integration
+- **Anchor Text Examples**: "GA4 SEO tracking", "track SEO in GA4", "Google Analytics 4 for SEO", "GA4 organic traffic setup", "how to measure organic conversions"
+
 ---
 
 ## Quick Reference by Topic
@@ -165,6 +171,7 @@ This document catalogs published and in-progress blog articles for strategic int
 **When writing about measuring SEO / reporting**, link to:
 - `/blog/seo-reporting` — full reporting guide (Cluster 5 pillar, in progress)
 - `/blog/google-search-console-tutorial` — GSC setup, indexing data, performance reports
+- `/blog/ga4-seo-tracking` — GA4 configuration, organic channel setup, conversion tracking
 - `/blog/keyword-research-for-seo` — keyword tracking context
 - `/blog/seo-content-strategy` — content performance metrics
 
