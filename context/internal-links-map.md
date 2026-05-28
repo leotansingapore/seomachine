@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-05-27  
-**Total articles in pipeline**: 17 in review-required, 0 published  
+**Last Updated**: 2026-05-28  
+**Total articles in pipeline**: 18 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -142,6 +142,12 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing analytics setup, conversion tracking, measuring organic traffic, organic channel reporting, SEO dashboards, GA4 + GSC integration
 - **Anchor Text Examples**: "GA4 SEO tracking", "track SEO in GA4", "Google Analytics 4 for SEO", "GA4 organic traffic setup", "how to measure organic conversions"
 
+### Rank Tracking Setup (Supporting #3)
+- **URL**: `/blog/rank-tracking-setup` *(planned)*
+- **Primary Keyword**: rank tracking setup
+- **When to Link**: Articles discussing monitoring keyword positions, tracking SEO progress, SERP changes, rank fluctuations, SEO performance measurement workflows
+- **Anchor Text Examples**: "rank tracking setup", "how to set up rank tracking", "track keyword positions", "keyword rank tracking", "SERP tracking"
+
 ---
 
 ## Quick Reference by Topic
@@ -169,9 +175,10 @@ This document catalogs published and in-progress blog articles for strategic int
 - `/blog/digital-pr-for-b2b-saas` — PR-driven link acquisition
 
 **When writing about measuring SEO / reporting**, link to:
-- `/blog/seo-reporting` — full reporting guide (Cluster 5 pillar, in progress)
+- `/blog/seo-reporting` — full reporting guide (Cluster 5 pillar)
 - `/blog/google-search-console-tutorial` — GSC setup, indexing data, performance reports
 - `/blog/ga4-seo-tracking` — GA4 configuration, organic channel setup, conversion tracking
+- `/blog/rank-tracking-setup` — rank tracking setup, signal vs. noise, weekly review workflow
 - `/blog/keyword-research-for-seo` — keyword tracking context
 - `/blog/seo-content-strategy` — content performance metrics
 
