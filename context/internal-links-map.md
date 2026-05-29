@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-05-28  
-**Total articles in pipeline**: 18 in review-required, 0 published  
+**Last Updated**: 2026-05-29  
+**Total articles in pipeline**: 19 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -148,6 +148,19 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing monitoring keyword positions, tracking SEO progress, SERP changes, rank fluctuations, SEO performance measurement workflows
 - **Anchor Text Examples**: "rank tracking setup", "how to set up rank tracking", "track keyword positions", "keyword rank tracking", "SERP tracking"
 
+<<<<<<< HEAD
+=======
+---
+
+## Cluster 6: Programmatic SEO
+
+### Programmatic SEO (PILLAR)
+- **URL**: `/blog/programmatic-seo` *(planned)*
+- **Primary Keyword**: programmatic SEO
+- **When to Link**: Articles discussing large-scale content creation, database-driven pages, content at scale, SEO automation, integration pages, location pages at scale, SEO content architecture
+- **Anchor Text Examples**: "programmatic SEO", "programmatic SEO strategy", "large-scale content SEO", "how to do programmatic SEO", "programmatic pages"
+
+>>>>>>> fd0f049 (ops 2026-05-29: Cluster 6 Pillar — Programmatic SEO (3,451 words))
 ---
 
 ## Quick Reference by Topic
@@ -173,6 +186,12 @@ This document catalogs published and in-progress blog articles for strategic int
 - `/blog/anchor-text-optimization` — anchor text best practices
 - `/blog/link-prospecting-for-saas` — building a prospect list
 - `/blog/digital-pr-for-b2b-saas` — PR-driven link acquisition
+
+**When writing about programmatic SEO / content at scale**, link to:
+- `/blog/programmatic-seo` — qualification framework, 4 models, quality floor, hybrid model
+- `/blog/seo-content-strategy` — content architecture that programmatic pages integrate with
+- `/blog/keyword-research-for-seo` — demand test for entity combinations
+- `/blog/content-gap-analysis` — finding entity-level demand gaps
 
 **When writing about measuring SEO / reporting**, link to:
 - `/blog/seo-reporting` — full reporting guide (Cluster 5 pillar)
