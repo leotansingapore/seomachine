@@ -1,19 +1,19 @@
-# SEO Agency Status Report — 2026-05-18
+# SEO Agency Status — 2026-06-01
 
 ## What got done
-- **seomachine** cranked out 5 articles in the last 10 days: link building for B2B SaaS (May 15), content brief writing, low-competition keywords, long-tail keywords, keyword difficulty explained. Daily cadence is holding.
-- **seo-audit-tool** shipped better keyword targeting on May 13 — topic-first reasoning + cross-chunk dedup. Users can now go back and edit keyword selections mid-flow without losing progress.
-- **build-the-best** delivered a Kanban roadmap tracker with drag-and-drop and DB persistence — but that was back in March. Nothing since.
+- **seomachine** shipped the Cluster 6 pillar on Programmatic SEO (3,451 words) — content engine on pace, one cluster per week
+- **seo-audit-tool** patched Keyword Map stability (probe-based error handling + manual page-URL fallback) — cleanup after last week's big 7-tool playbook launch
+- **build-the-best** shipped a drag-and-drop Kanban roadmap board with Supabase persistence — internal dev tracker is now live
 
 ## What's next
-- **seomachine**: website crawl errors article is in the pipeline (research brief done May 14). Keep the daily run going through Cluster 4.
-- **seo-audit-tool**: Mobile CRO audit, on-page SEO sheet, and content manual are all built per the PRD — needs a QA and client testing pass before next demo.
-- **build-the-best**: Priority 1 per `program.md` is wiring `ArticleSettings` to Supabase. Most visible "broken to users" issue — should be the first thing someone picks up.
+- **seomachine**: 3 supporting articles for Cluster 6 to complete the cluster, then move to Cluster 7
+- **seo-audit-tool**: GSC native OAuth (blocker #1) and multi-tenancy (blocker #2) are the two big unlocks — both need Leo's decisions on auth provider and token strategy before dev can proceed
+- **build-the-best**: wire ArticleSettings to Supabase — it's all local state right now, biggest "looks broken" issue before any client demo
 
 ## Needs attention
-- **build-the-best is dark** — last commit was March 15, over 2 months ago. Known issues stacking up: article pipeline missing, settings don't persist to Supabase, `Social.tsx` is 100% hardcoded, no multi-website switcher. Needs a dev assigned now.
-- **seo-audit-tool has gone quiet** for 5 days after a burst of activity. No issues tracked — risk of things slipping without visibility.
-- **seomachine**: only 1 commit in the strict 3-day window. Daily runs looked healthy before that but worth confirming the automation is still firing.
+- **build-the-best has gone quiet** — 0 commits in the last 3 days with a long bug list in program.md; needs a push
+- **seo-audit-tool has 9 open blockers** in BLOCKERS.md, all waiting on Leo to configure external services (Google Cloud Console, Supabase Auth, Vercel plan)
+- **Vercel Hobby plan hard cap**: /api/playbook times out at 60s; needs Pro upgrade or a background-job refactor before the composite playbook works reliably in prod
 
 ---
-*Generated: 2026-05-18 | Commits (last 3 days): seomachine: 1 · seo-audit-tool: 0 · build-the-best: 0 | Total: 1 | Lark: chat not found, report saved here instead*
+*Generated: 2026-06-01 | Commits (last 3 days): seomachine: 1 · seo-audit-tool: 1 · build-the-best: 0 | Total: 2 | Lark: "SEO Agency Ops" chat not found — report saved here instead*
