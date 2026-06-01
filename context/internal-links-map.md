@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-05-29  
-**Total articles in pipeline**: 19 in review-required, 0 published  
+**Last Updated**: 2026-06-01  
+**Total articles in pipeline**: 20 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -148,8 +148,6 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing monitoring keyword positions, tracking SEO progress, SERP changes, rank fluctuations, SEO performance measurement workflows
 - **Anchor Text Examples**: "rank tracking setup", "how to set up rank tracking", "track keyword positions", "keyword rank tracking", "SERP tracking"
 
-<<<<<<< HEAD
-=======
 ---
 
 ## Cluster 6: Programmatic SEO
@@ -160,7 +158,12 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing large-scale content creation, database-driven pages, content at scale, SEO automation, integration pages, location pages at scale, SEO content architecture
 - **Anchor Text Examples**: "programmatic SEO", "programmatic SEO strategy", "large-scale content SEO", "how to do programmatic SEO", "programmatic pages"
 
->>>>>>> fd0f049 (ops 2026-05-29: Cluster 6 Pillar — Programmatic SEO (3,451 words))
+### Programmatic SEO Examples (Supporting #1)
+- **URL**: `/blog/programmatic-seo-examples` *(planned)*
+- **Primary Keyword**: programmatic SEO examples
+- **When to Link**: Articles referencing how programmatic SEO works in practice, case studies of large-scale content, integration page systems, location page systems, definition page systems
+- **Anchor Text Examples**: "programmatic SEO examples", "examples of programmatic SEO", "see how programmatic SEO works in practice", "programmatic SEO case studies"
+
 ---
 
 ## Quick Reference by Topic
