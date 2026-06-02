@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-01  
-**Total articles in pipeline**: 20 in review-required, 0 published  
+**Last Updated**: 2026-06-02  
+**Total articles in pipeline**: 21 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -164,6 +164,12 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles referencing how programmatic SEO works in practice, case studies of large-scale content, integration page systems, location page systems, definition page systems
 - **Anchor Text Examples**: "programmatic SEO examples", "examples of programmatic SEO", "see how programmatic SEO works in practice", "programmatic SEO case studies"
 
+### Programmatic SEO Tools (Supporting #2)
+- **URL**: `/blog/programmatic-seo-tools` *(planned)*
+- **Primary Keyword**: programmatic SEO tools
+- **When to Link**: Articles discussing how to build programmatic SEO systems, tech stack for content at scale, CMS for programmatic pages, data layer tools, no-code programmatic SEO
+- **Anchor Text Examples**: "programmatic SEO tools", "programmatic SEO stack", "tools for programmatic SEO", "how to build a programmatic SEO system"
+
 ---
 
 ## Quick Reference by Topic
@@ -192,6 +198,8 @@ This document catalogs published and in-progress blog articles for strategic int
 
 **When writing about programmatic SEO / content at scale**, link to:
 - `/blog/programmatic-seo` — qualification framework, 4 models, quality floor, hybrid model
+- `/blog/programmatic-seo-examples` — anatomy-level examples across all 4 models
+- `/blog/programmatic-seo-tools` — data/template/publishing/monitoring stack by scale
 - `/blog/seo-content-strategy` — content architecture that programmatic pages integrate with
 - `/blog/keyword-research-for-seo` — demand test for entity combinations
 - `/blog/content-gap-analysis` — finding entity-level demand gaps
