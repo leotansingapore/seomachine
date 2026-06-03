@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-02  
-**Total articles in pipeline**: 21 in review-required, 0 published  
+**Last Updated**: 2026-06-03  
+**Total articles in pipeline**: 22 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -170,6 +170,12 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing how to build programmatic SEO systems, tech stack for content at scale, CMS for programmatic pages, data layer tools, no-code programmatic SEO
 - **Anchor Text Examples**: "programmatic SEO tools", "programmatic SEO stack", "tools for programmatic SEO", "how to build a programmatic SEO system"
 
+### SEO for SaaS Companies (Supporting #3)
+- **URL**: `/blog/seo-for-saas-companies` *(planned)*
+- **Primary Keyword**: SEO for SaaS companies
+- **When to Link**: Articles discussing SaaS growth, B2B SaaS marketing, product-led growth, SaaS content strategy, organic growth for software companies
+- **Anchor Text Examples**: "SEO for SaaS companies", "SaaS SEO strategy", "B2B SaaS SEO", "SaaS organic growth", "SEO for software companies"
+
 ---
 
 ## Quick Reference by Topic
@@ -200,6 +206,7 @@ This document catalogs published and in-progress blog articles for strategic int
 - `/blog/programmatic-seo` — qualification framework, 4 models, quality floor, hybrid model
 - `/blog/programmatic-seo-examples` — anatomy-level examples across all 4 models
 - `/blog/programmatic-seo-tools` — data/template/publishing/monitoring stack by scale
+- `/blog/seo-for-saas-companies` — full SaaS SEO funnel framework, integration pages, product-led SEO
 - `/blog/seo-content-strategy` — content architecture that programmatic pages integrate with
 - `/blog/keyword-research-for-seo` — demand test for entity combinations
 - `/blog/content-gap-analysis` — finding entity-level demand gaps
