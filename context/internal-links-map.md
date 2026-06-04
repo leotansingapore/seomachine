@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-03  
-**Total articles in pipeline**: 22 in review-required, 0 published  
+**Last Updated**: 2026-06-04  
+**Total articles in pipeline**: 23 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -176,6 +176,19 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing SaaS growth, B2B SaaS marketing, product-led growth, SaaS content strategy, organic growth for software companies
 - **Anchor Text Examples**: "SEO for SaaS companies", "SaaS SEO strategy", "B2B SaaS SEO", "SaaS organic growth", "SEO for software companies"
 
+<<<<<<< HEAD
+=======
+---
+
+## Cluster 7: B2B SEO Strategy
+
+### B2B SEO Strategy (PILLAR)
+- **URL**: `/blog/b2b-seo-strategy` *(planned)*
+- **Primary Keyword**: B2B SEO strategy
+- **When to Link**: Articles about B2B content marketing, lead generation via SEO, B2B organic growth, connecting SEO to pipeline/revenue, B2B buyer journey, multi-stakeholder buying, organic lead generation
+- **Anchor Text Examples**: "B2B SEO strategy", "B2B SEO", "pipeline-first SEO", "B2B organic search strategy", "SEO for B2B companies"
+
+>>>>>>> 03f5e45 (ops 2026-06-04: Cluster 7 Pillar — B2B SEO Strategy (3,400 words) + Cluster 6 catch-up)
 ---
 
 ## Quick Reference by Topic
@@ -210,6 +223,9 @@ This document catalogs published and in-progress blog articles for strategic int
 - `/blog/seo-content-strategy` — content architecture that programmatic pages integrate with
 - `/blog/keyword-research-for-seo` — demand test for entity combinations
 - `/blog/content-gap-analysis` — finding entity-level demand gaps
+
+**When writing about B2B SEO, lead generation, or connecting SEO to pipeline**, link to:
+- `/blog/b2b-seo-strategy` — the full pipeline-first B2B SEO framework, buyer journey stages, multi-stakeholder keyword mapping, timeline expectations
 
 **When writing about measuring SEO / reporting**, link to:
 - `/blog/seo-reporting` — full reporting guide (Cluster 5 pillar)
