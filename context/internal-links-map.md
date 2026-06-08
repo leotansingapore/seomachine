@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-05  
-**Total articles in pipeline**: 24 in review-required, 0 published  
+**Last Updated**: 2026-06-08  
+**Total articles in pipeline**: 25 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -192,6 +192,11 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing keyword strategy for B2B companies, mapping keywords to buyer journey stages, multi-stakeholder keyword mapping, B2B content prioritization
 - **Anchor Text Examples**: "B2B keyword research", "keyword research for B2B", "B2B keyword strategy", "map keywords to your buyer's journey"
 
+### B2B Content Strategy (Supporting #2)
+- **URL**: `/blog/b2b-content-strategy` *(planned)*
+- **Primary Keyword**: B2B content strategy
+- **When to Link**: Articles discussing content marketing for B2B companies, multi-stakeholder content architecture, dark funnel content, content-to-pipeline attribution, B2B content planning, sales enablement content
+- **Anchor Text Examples**: "B2B content strategy", "B2B content marketing strategy", "content strategy for B2B", "pipeline-first content strategy"
 ---
 
 ## Quick Reference by Topic
@@ -230,6 +235,7 @@ This document catalogs published and in-progress blog articles for strategic int
 **When writing about B2B SEO, lead generation, or connecting SEO to pipeline**, link to:
 - `/blog/b2b-seo-strategy` — the full pipeline-first B2B SEO framework, buyer journey stages, multi-stakeholder keyword mapping, timeline expectations
 - `/blog/b2b-keyword-research` — six-stage buyer journey keyword map, multi-stakeholder matrix, priority scoring model
+- `/blog/b2b-content-strategy` — four-layer B2B content architecture, multi-stakeholder content mapping, pipeline-first prioritization, pipeline attribution metrics
 
 **When writing about measuring SEO / reporting**, link to:
 - `/blog/seo-reporting` — full reporting guide (Cluster 5 pillar)
