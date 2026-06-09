@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-08  
-**Total articles in pipeline**: 25 in review-required, 0 published  
+**Last Updated**: 2026-06-09  
+**Total articles in pipeline**: 26 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -197,6 +197,13 @@ This document catalogs published and in-progress blog articles for strategic int
 - **Primary Keyword**: B2B content strategy
 - **When to Link**: Articles discussing content marketing for B2B companies, multi-stakeholder content architecture, dark funnel content, content-to-pipeline attribution, B2B content planning, sales enablement content
 - **Anchor Text Examples**: "B2B content strategy", "B2B content marketing strategy", "content strategy for B2B", "pipeline-first content strategy"
+
+### B2B Link Building Strategy (Supporting #3)
+- **URL**: `/blog/b2b-link-building-strategy` *(planned)*
+- **Primary Keyword**: B2B link building strategy
+- **When to Link**: Articles discussing B2B backlink acquisition, relationship-first link building, analyst relations as SEO, partner co-marketing for links, customer advocacy links, B2B off-page SEO, connecting link building to pipeline
+- **Anchor Text Examples**: "B2B link building strategy", "B2B link building", "relationship-first link building", "B2B backlink program", "link building for B2B companies"
+
 ---
 
 ## Quick Reference by Topic
@@ -236,6 +243,7 @@ This document catalogs published and in-progress blog articles for strategic int
 - `/blog/b2b-seo-strategy` — the full pipeline-first B2B SEO framework, buyer journey stages, multi-stakeholder keyword mapping, timeline expectations
 - `/blog/b2b-keyword-research` — six-stage buyer journey keyword map, multi-stakeholder matrix, priority scoring model
 - `/blog/b2b-content-strategy` — four-layer B2B content architecture, multi-stakeholder content mapping, pipeline-first prioritization, pipeline attribution metrics
+- `/blog/b2b-link-building-strategy` — account-based link targeting, analyst relations, partner co-marketing, customer advocacy links, pipeline attribution for backlinks
 
 **When writing about measuring SEO / reporting**, link to:
 - `/blog/seo-reporting` — full reporting guide (Cluster 5 pillar)
