@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-09  
-**Total articles in pipeline**: 26 in review-required, 0 published  
+**Last Updated**: 2026-06-10  
+**Total articles in pipeline**: 27 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -206,6 +206,16 @@ This document catalogs published and in-progress blog articles for strategic int
 
 ---
 
+## Cluster 8: E-E-A-T and Authority Building
+
+### E-E-A-T for B2B SaaS (PILLAR)
+- **URL**: `/blog/eeat-for-b2b-saas` *(planned)*
+- **Primary Keyword**: E-E-A-T for B2B SaaS
+- **When to Link**: Articles discussing content quality signals, author authority, Google trust factors, thought leadership as SEO, brand authority building, content credibility, expertise signals, trust signals for B2B software companies
+- **Anchor Text Examples**: "E-E-A-T for B2B SaaS", "E-E-A-T", "build expertise and authority", "Google's E-E-A-T signals", "author authority and trust signals"
+
+---
+
 ## Quick Reference by Topic
 
 **When writing about technical SEO issues**, link to:
@@ -252,6 +262,9 @@ This document catalogs published and in-progress blog articles for strategic int
 - `/blog/rank-tracking-setup` — rank tracking setup, signal vs. noise, weekly review workflow
 - `/blog/keyword-research-for-seo` — keyword tracking context
 - `/blog/seo-content-strategy` — content performance metrics
+
+**When writing about E-E-A-T, author authority, topical authority, or content trust signals**, link to:
+- `/blog/eeat-for-b2b-saas` — four-layer E-E-A-T framework for B2B SaaS: experience (original data, case studies, SME interviews), expertise (author entities, topical depth), authoritativeness (analyst relations, partner pages, original research), trustworthiness (technical + commercial trust signals)
 
 ---
 
