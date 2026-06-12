@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-11  
-**Total articles in pipeline**: 28 in review-required, 0 published  
+**Last Updated**: 2026-06-12  
+**Total articles in pipeline**: 29 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -220,6 +220,12 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing content cluster architecture, topic coverage, building domain authority through content, category authority, buyer journey content mapping, multi-stakeholder content coverage, content depth signals
 - **Anchor Text Examples**: "topical authority", "topical authority for B2B SaaS", "build topical authority", "category authority", "topical depth", "content cluster authority"
 
+### Author Authority for SaaS Content (Supporting #2)
+- **URL**: `/blog/author-authority-for-saas-content` *(planned)*
+- **Primary Keyword**: author authority SEO
+- **When to Link**: Articles discussing E-E-A-T implementation, author bio best practices, Person schema, byline strategy, content trust signals, author page setup, ghostwriting disclosure, entity building for SEO
+- **Anchor Text Examples**: "author authority", "author entity building", "author authority for SaaS", "build author entities", "author E-E-A-T signals", "Person schema for authors"
+
 ---
 
 ## Quick Reference by Topic
@@ -272,6 +278,7 @@ This document catalogs published and in-progress blog articles for strategic int
 **When writing about E-E-A-T, author authority, topical authority, or content trust signals**, link to:
 - `/blog/eeat-for-b2b-saas` — four-layer E-E-A-T framework for B2B SaaS: experience (original data, case studies, SME interviews), expertise (author entities, topical depth), authoritativeness (analyst relations, partner pages, original research), trustworthiness (technical + commercial trust signals)
 - `/blog/topical-authority-for-b2b-saas` — four-layer topical authority stack, buyer journey × stakeholder content matrix, cluster architecture system, six-metric measurement dashboard, quarterly content decay audit
+- `/blog/author-authority-for-saas-content` — author entity vs. bio distinction, three author models (SME/writer-as-expert/ghostwritten executive) with E-E-A-T tradeoffs, Person schema with sameAs implementation, byline strategy for teams, four-signal measurement framework, author authority decay and succession protocol, 90-day build sequence
 
 ---
 
