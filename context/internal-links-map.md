@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-15  
-**Total articles in pipeline**: 30 in review-required, 0 published  
+**Last Updated**: 2026-06-16  
+**Total articles in pipeline**: 31 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -234,6 +234,28 @@ This document catalogs published and in-progress blog articles for strategic int
 
 ---
 
+## Cluster 9: Conversion Rate Optimization
+
+### Conversion Rate Optimization for SaaS (PILLAR)
+- **URL**: `/blog/conversion-rate-optimization-for-saas` *(planned)*
+- **Primary Keyword**: conversion rate optimization for SaaS
+- **When to Link**: Articles discussing SaaS growth, pipeline conversion, trial-to-paid optimization, demo conversion, landing page performance, CRO audits, organic traffic quality, pipeline yield, intent matching, buyer journey CTAs, MQL to SQL conversion
+- **Anchor Text Examples**: "conversion rate optimization for SaaS", "SaaS CRO", "4-layer CRO framework", "SaaS conversion funnel", "trial-to-paid conversion", "pipeline yield"
+
+### SaaS Landing Page Best Practices (Supporting #1) — PLANNED
+- **URL**: `/blog/saas-landing-page-best-practices` *(planned)*
+- **Primary Keyword**: SaaS landing page best practices
+
+### SaaS Pricing Page Optimization (Supporting #2) — PLANNED
+- **URL**: `/blog/saas-pricing-page-optimization` *(planned)*
+- **Primary Keyword**: SaaS pricing page optimization
+
+### Free Trial to Paid Conversion Rate (Supporting #3) — PLANNED
+- **URL**: `/blog/free-trial-to-paid-conversion-rate` *(planned)*
+- **Primary Keyword**: free trial to paid conversion rate
+
+---
+
 ## Quick Reference by Topic
 
 **When writing about technical SEO issues**, link to:
@@ -280,6 +302,12 @@ This document catalogs published and in-progress blog articles for strategic int
 - `/blog/rank-tracking-setup` — rank tracking setup, signal vs. noise, weekly review workflow
 - `/blog/keyword-research-for-seo` — keyword tracking context
 - `/blog/seo-content-strategy` — content performance metrics
+
+**When writing about SaaS CRO, conversion optimization, trial or demo conversion, pipeline yield, or SEO-to-revenue attribution**, link to:
+- `/blog/conversion-rate-optimization-for-saas` — four-layer CRO framework (intent/page/journey/pipeline), SaaS CVR benchmarks by stage, buying committee conversion, pipeline yield model, layer-by-layer audit process
+- `/blog/saas-landing-page-best-practices` — above-the-fold formula, social proof placement, CTA hierarchy (planned)
+- `/blog/saas-pricing-page-optimization` — pricing page CRO, plan naming, feature table design, enterprise vs. SMB CTAs (planned)
+- `/blog/free-trial-to-paid-conversion-rate` — activation event definition, onboarding email triggers, PLG conversion benchmarks (planned)
 
 **When writing about E-E-A-T, author authority, topical authority, or content trust signals**, link to:
 - `/blog/eeat-for-b2b-saas` — four-layer E-E-A-T framework for B2B SaaS: experience (original data, case studies, SME interviews), expertise (author entities, topical depth), authoritativeness (analyst relations, partner pages, original research), trustworthiness (technical + commercial trust signals)
