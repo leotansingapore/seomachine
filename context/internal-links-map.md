@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-16  
-**Total articles in pipeline**: 31 in review-required, 0 published  
+**Last Updated**: 2026-06-17  
+**Total articles in pipeline**: 32 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -242,9 +242,11 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing SaaS growth, pipeline conversion, trial-to-paid optimization, demo conversion, landing page performance, CRO audits, organic traffic quality, pipeline yield, intent matching, buyer journey CTAs, MQL to SQL conversion
 - **Anchor Text Examples**: "conversion rate optimization for SaaS", "SaaS CRO", "4-layer CRO framework", "SaaS conversion funnel", "trial-to-paid conversion", "pipeline yield"
 
-### SaaS Landing Page Best Practices (Supporting #1) — PLANNED
+### SaaS Landing Page Best Practices (Supporting #1)
 - **URL**: `/blog/saas-landing-page-best-practices` *(planned)*
 - **Primary Keyword**: SaaS landing page best practices
+- **When to Link**: Articles discussing landing page design, CRO for SaaS, above-the-fold optimization, form design, social proof placement, B2B buying committee decision-making, demo or trial page conversion, multi-stakeholder page architecture, PLG vs. SLG conversion mechanics
+- **Anchor Text Examples**: "SaaS landing page best practices", "landing page architecture", "multi-evaluator landing page", "PLG vs. SLG landing page design", "above-the-fold formula", "10-point landing page audit"
 
 ### SaaS Pricing Page Optimization (Supporting #2) — PLANNED
 - **URL**: `/blog/saas-pricing-page-optimization` *(planned)*
@@ -305,7 +307,7 @@ This document catalogs published and in-progress blog articles for strategic int
 
 **When writing about SaaS CRO, conversion optimization, trial or demo conversion, pipeline yield, or SEO-to-revenue attribution**, link to:
 - `/blog/conversion-rate-optimization-for-saas` — four-layer CRO framework (intent/page/journey/pipeline), SaaS CVR benchmarks by stage, buying committee conversion, pipeline yield model, layer-by-layer audit process
-- `/blog/saas-landing-page-best-practices` — above-the-fold formula, social proof placement, CTA hierarchy (planned)
+- `/blog/saas-landing-page-best-practices` — multi-evaluator page architecture (champion/CFO/IT sections), PLG vs. SLG above-the-fold design, social proof specificity standards, 10-point audit checklist, form field specs, CTA hierarchy
 - `/blog/saas-pricing-page-optimization` — pricing page CRO, plan naming, feature table design, enterprise vs. SMB CTAs (planned)
 - `/blog/free-trial-to-paid-conversion-rate` — activation event definition, onboarding email triggers, PLG conversion benchmarks (planned)
 
