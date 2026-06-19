@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-18  
-**Total articles in pipeline**: 33 in review-required, 0 published  
+**Last Updated**: 2026-06-19  
+**Total articles in pipeline**: 34 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -254,9 +254,11 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing CRO for SaaS, pricing strategy, plan design, enterprise conversion, pipeline qualification, free trial vs. demo routing, B2B buying committee decisions, ROI framing for economic buyers, enterprise CTA design, B2B SaaS pricing strategy
 - **Anchor Text Examples**: "SaaS pricing page optimization", "pricing page CRO", "pricing page architecture", "pipeline-qualification pricing page", "enterprise CTA optimization", "ROI framing by tier"
 
-### Free Trial to Paid Conversion Rate (Supporting #3) — PLANNED
+### Free Trial to Paid Conversion Rate (Supporting #3)
 - **URL**: `/blog/free-trial-to-paid-conversion-rate` *(planned)*
 - **Primary Keyword**: free trial to paid conversion rate
+- **When to Link**: Articles discussing PLG conversion, SaaS onboarding, trial optimization, free-to-paid transition, upgrade prompt design, freemium conversion, product-led growth, activation rates, onboarding email sequences, in-product upgrade experience, usage-limit design
+- **Anchor Text Examples**: "free trial to paid conversion", "trial-to-paid conversion rate", "PLG conversion benchmarks", "upgrade prompt design", "micro-conversion sequence", "activation to paid framework", "free trial conversion optimization"
 
 ---
 
@@ -311,7 +313,7 @@ This document catalogs published and in-progress blog articles for strategic int
 - `/blog/conversion-rate-optimization-for-saas` — four-layer CRO framework (intent/page/journey/pipeline), SaaS CVR benchmarks by stage, buying committee conversion, pipeline yield model, layer-by-layer audit process
 - `/blog/saas-landing-page-best-practices` — multi-evaluator page architecture (champion/CFO/IT sections), PLG vs. SLG above-the-fold design, social proof specificity standards, 10-point audit checklist, form field specs, CTA hierarchy
 - `/blog/saas-pricing-page-optimization` — pipeline-qualification pricing page framework, PLG vs. SLG architecture, multi-stakeholder breakdown (champion/CFO/IT/procurement), 6 conversion elements, enterprise CTA optimization, ROI framing by tier, 10-point audit checklist
-- `/blog/free-trial-to-paid-conversion-rate` — activation event definition, onboarding email triggers, PLG conversion benchmarks (planned)
+- `/blog/free-trial-to-paid-conversion-rate` — 5-step micro-conversion sequence (activation/habit/limit/upgrade/payment), benchmark ranges by trial model (time-limited/freemium/usage-limited), upgrade prompt design framework, trial expiry vs. limit-hit playbooks, event-driven email sequence architecture, 10-point conversion audit checklist
 
 **When writing about E-E-A-T, author authority, topical authority, or content trust signals**, link to:
 - `/blog/eeat-for-b2b-saas` — four-layer E-E-A-T framework for B2B SaaS: experience (original data, case studies, SME interviews), expertise (author entities, topical depth), authoritativeness (analyst relations, partner pages, original research), trustworthiness (technical + commercial trust signals)
