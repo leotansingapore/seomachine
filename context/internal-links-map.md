@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-19  
-**Total articles in pipeline**: 34 in review-required, 0 published  
+**Last Updated**: 2026-06-22  
+**Total articles in pipeline**: 35 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -262,6 +262,31 @@ This document catalogs published and in-progress blog articles for strategic int
 
 ---
 
+## Cluster 10: SaaS Onboarding Optimization
+
+### SaaS Onboarding Best Practices (PILLAR)
+- **URL**: `/blog/saas-onboarding-best-practices` *(planned)*
+- **Primary Keyword**: SaaS onboarding best practices
+- **When to Link**: Articles discussing user activation, aha moment, time-to-value, PLG onboarding flow, trial-to-paid conversion, free trial optimization, SaaS product experience, onboarding audit, activation rate benchmarks, SaaS retention strategy, product-led growth mechanics
+- **Anchor Text Examples**: "SaaS onboarding best practices", "onboarding activation framework", "minimum activation sequence", "aha moment identification", "SaaS onboarding architecture", "activation rate benchmarks", "PLG vs. SLG onboarding"
+
+### User Activation in SaaS (Supporting #1) — PLANNED
+- **URL**: `/blog/user-activation-saas` *(planned)*
+- **Primary Keyword**: user activation SaaS / SaaS activation rate
+- **When to Link**: Articles discussing activation metrics, time-to-value, onboarding optimization, aha moment, product analytics, cohort analysis, PLG activation benchmarks, in-product onboarding tactics
+
+### SaaS Onboarding Emails (Supporting #2) — PLANNED
+- **URL**: `/blog/saas-onboarding-emails` *(planned)*
+- **Primary Keyword**: SaaS onboarding emails / onboarding email sequence
+- **When to Link**: Articles discussing behavioral email, onboarding drip campaigns, trial email sequences, event-triggered email, re-engagement emails, activation email design, B2B SaaS lifecycle email
+
+### Product-Led Growth Onboarding (Supporting #3) — PLANNED
+- **URL**: `/blog/plg-onboarding` *(planned)*
+- **Primary Keyword**: PLG onboarding / product-led growth onboarding strategy
+- **When to Link**: Articles discussing product-led growth, PLG architecture, self-serve conversion, freemium onboarding, in-product activation, usage-based upgrade prompts, PLG vs. SLG design decisions
+
+---
+
 ## Quick Reference by Topic
 
 **When writing about technical SEO issues**, link to:
@@ -314,6 +339,12 @@ This document catalogs published and in-progress blog articles for strategic int
 - `/blog/saas-landing-page-best-practices` — multi-evaluator page architecture (champion/CFO/IT sections), PLG vs. SLG above-the-fold design, social proof specificity standards, 10-point audit checklist, form field specs, CTA hierarchy
 - `/blog/saas-pricing-page-optimization` — pipeline-qualification pricing page framework, PLG vs. SLG architecture, multi-stakeholder breakdown (champion/CFO/IT/procurement), 6 conversion elements, enterprise CTA optimization, ROI framing by tier, 10-point audit checklist
 - `/blog/free-trial-to-paid-conversion-rate` — 5-step micro-conversion sequence (activation/habit/limit/upgrade/payment), benchmark ranges by trial model (time-limited/freemium/usage-limited), upgrade prompt design framework, trial expiry vs. limit-hit playbooks, event-driven email sequence architecture, 10-point conversion audit checklist
+
+**When writing about SaaS onboarding, user activation, PLG mechanics, or trial optimization**, link to:
+- `/blog/saas-onboarding-best-practices` — activation framework (aha moment, minimum activation sequence, value ladder, signal event measurement), PLG vs. SLG architecture decision matrix, 6 onboarding layers, onboarding audit methodology
+- `/blog/user-activation-saas` (PLANNED) — activation rate deep dive, signal event identification, cohort analysis, in-product activation tactics
+- `/blog/saas-onboarding-emails` (PLANNED) — behavioral email sequence architecture, trigger-based onboarding email design, win-back and re-engagement email strategy
+- `/blog/plg-onboarding` (PLANNED) — PLG onboarding architecture, self-serve activation, freemium design, usage-based upgrade flows
 
 **When writing about E-E-A-T, author authority, topical authority, or content trust signals**, link to:
 - `/blog/eeat-for-b2b-saas` — four-layer E-E-A-T framework for B2B SaaS: experience (original data, case studies, SME interviews), expertise (author entities, topical depth), authoritativeness (analyst relations, partner pages, original research), trustworthiness (technical + commercial trust signals)
