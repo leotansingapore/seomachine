@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-22  
-**Total articles in pipeline**: 35 in review-required, 0 published  
+**Last Updated**: 2026-06-23  
+**Total articles in pipeline**: 36 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -270,10 +270,11 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing user activation, aha moment, time-to-value, PLG onboarding flow, trial-to-paid conversion, free trial optimization, SaaS product experience, onboarding audit, activation rate benchmarks, SaaS retention strategy, product-led growth mechanics
 - **Anchor Text Examples**: "SaaS onboarding best practices", "onboarding activation framework", "minimum activation sequence", "aha moment identification", "SaaS onboarding architecture", "activation rate benchmarks", "PLG vs. SLG onboarding"
 
-### User Activation in SaaS (Supporting #1) — PLANNED
+### User Activation in SaaS (Supporting #1)
 - **URL**: `/blog/user-activation-saas` *(planned)*
 - **Primary Keyword**: user activation SaaS / SaaS activation rate
-- **When to Link**: Articles discussing activation metrics, time-to-value, onboarding optimization, aha moment, product analytics, cohort analysis, PLG activation benchmarks, in-product onboarding tactics
+- **When to Link**: Articles discussing activation metrics, signal events, time-to-value, onboarding optimization, aha moment identification, product analytics, cohort analysis, PLG activation benchmarks, in-product onboarding tactics, trial-to-paid optimization
+- **Anchor Text Examples**: "user activation", "SaaS activation rate", "signal event", "activation failure modes", "activation rate benchmarks", "cohort analysis for activation", "in-product activation tactics"
 
 ### SaaS Onboarding Emails (Supporting #2) — PLANNED
 - **URL**: `/blog/saas-onboarding-emails` *(planned)*
@@ -342,7 +343,7 @@ This document catalogs published and in-progress blog articles for strategic int
 
 **When writing about SaaS onboarding, user activation, PLG mechanics, or trial optimization**, link to:
 - `/blog/saas-onboarding-best-practices` — activation framework (aha moment, minimum activation sequence, value ladder, signal event measurement), PLG vs. SLG architecture decision matrix, 6 onboarding layers, onboarding audit methodology
-- `/blog/user-activation-saas` (PLANNED) — activation rate deep dive, signal event identification, cohort analysis, in-product activation tactics
+- `/blog/user-activation-saas` — activation rate deep dive, signal event identification (cohort analysis method), 5 activation failure modes, tactic playbook by failure mode, benchmark table by GTM motion
 - `/blog/saas-onboarding-emails` (PLANNED) — behavioral email sequence architecture, trigger-based onboarding email design, win-back and re-engagement email strategy
 - `/blog/plg-onboarding` (PLANNED) — PLG onboarding architecture, self-serve activation, freemium design, usage-based upgrade flows
 
