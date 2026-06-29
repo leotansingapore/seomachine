@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-23  
-**Total articles in pipeline**: 36 in review-required, 0 published  
+**Last Updated**: 2026-06-29  
+**Total articles in pipeline**: 37 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -276,10 +276,11 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing activation metrics, signal events, time-to-value, onboarding optimization, aha moment identification, product analytics, cohort analysis, PLG activation benchmarks, in-product onboarding tactics, trial-to-paid optimization
 - **Anchor Text Examples**: "user activation", "SaaS activation rate", "signal event", "activation failure modes", "activation rate benchmarks", "cohort analysis for activation", "in-product activation tactics"
 
-### SaaS Onboarding Emails (Supporting #2) — PLANNED
+### SaaS Onboarding Emails (Supporting #2)
 - **URL**: `/blog/saas-onboarding-emails` *(planned)*
 - **Primary Keyword**: SaaS onboarding emails / onboarding email sequence
 - **When to Link**: Articles discussing behavioral email, onboarding drip campaigns, trial email sequences, event-triggered email, re-engagement emails, activation email design, B2B SaaS lifecycle email
+- **Anchor Text Examples**: "SaaS onboarding emails", "onboarding email sequence", "event-triggered onboarding email", "stall intervention sequence", "trial expiry email", "behavioral email architecture"
 
 ### Product-Led Growth Onboarding (Supporting #3) — PLANNED
 - **URL**: `/blog/plg-onboarding` *(planned)*
@@ -344,7 +345,7 @@ This document catalogs published and in-progress blog articles for strategic int
 **When writing about SaaS onboarding, user activation, PLG mechanics, or trial optimization**, link to:
 - `/blog/saas-onboarding-best-practices` — activation framework (aha moment, minimum activation sequence, value ladder, signal event measurement), PLG vs. SLG architecture decision matrix, 6 onboarding layers, onboarding audit methodology
 - `/blog/user-activation-saas` — activation rate deep dive, signal event identification (cohort analysis method), 5 activation failure modes, tactic playbook by failure mode, benchmark table by GTM motion
-- `/blog/saas-onboarding-emails` (PLANNED) — behavioral email sequence architecture, trigger-based onboarding email design, win-back and re-engagement email strategy
+- `/blog/saas-onboarding-emails` — behavioral email architecture, event-triggered vs. time-based drip, stall intervention sequence, subject line strategy by email type, trial expiry email design
 - `/blog/plg-onboarding` (PLANNED) — PLG onboarding architecture, self-serve activation, freemium design, usage-based upgrade flows
 
 **When writing about E-E-A-T, author authority, topical authority, or content trust signals**, link to:
