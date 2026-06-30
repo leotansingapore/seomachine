@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-29  
-**Total articles in pipeline**: 37 in review-required, 0 published  
+**Last Updated**: 2026-06-30  
+**Total articles in pipeline**: 38 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -282,10 +282,11 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing behavioral email, onboarding drip campaigns, trial email sequences, event-triggered email, re-engagement emails, activation email design, B2B SaaS lifecycle email
 - **Anchor Text Examples**: "SaaS onboarding emails", "onboarding email sequence", "event-triggered onboarding email", "stall intervention sequence", "trial expiry email", "behavioral email architecture"
 
-### Product-Led Growth Onboarding (Supporting #3) — PLANNED
+### Product-Led Growth Onboarding (Supporting #3)
 - **URL**: `/blog/plg-onboarding` *(planned)*
 - **Primary Keyword**: PLG onboarding / product-led growth onboarding strategy
-- **When to Link**: Articles discussing product-led growth, PLG architecture, self-serve conversion, freemium onboarding, in-product activation, usage-based upgrade prompts, PLG vs. SLG design decisions
+- **When to Link**: Articles discussing product-led growth, PLG architecture, self-serve conversion, freemium onboarding, in-product activation, usage-based upgrade prompts, PLG vs. SLG design decisions, empty state design, PQL definition, upgrade trigger design
+- **Anchor Text Examples**: "PLG onboarding", "product-led growth onboarding", "self-serve activation architecture", "in-product onboarding layers", "upgrade trigger design", "PQL threshold", "PLG vs. SLG onboarding", "PLG activation rate", "empty state design"
 
 ---
 
@@ -346,7 +347,7 @@ This document catalogs published and in-progress blog articles for strategic int
 - `/blog/saas-onboarding-best-practices` — activation framework (aha moment, minimum activation sequence, value ladder, signal event measurement), PLG vs. SLG architecture decision matrix, 6 onboarding layers, onboarding audit methodology
 - `/blog/user-activation-saas` — activation rate deep dive, signal event identification (cohort analysis method), 5 activation failure modes, tactic playbook by failure mode, benchmark table by GTM motion
 - `/blog/saas-onboarding-emails` — behavioral email architecture, event-triggered vs. time-based drip, stall intervention sequence, subject line strategy by email type, trial expiry email design
-- `/blog/plg-onboarding` (PLANNED) — PLG onboarding architecture, self-serve activation, freemium design, usage-based upgrade flows
+- `/blog/plg-onboarding` — PLG onboarding architecture, self-serve activation, five in-product onboarding layers, three upgrade trigger models (usage/feature-gate/seat-limit), PQL definition method, PLG-specific metrics framework, empty state design framework
 
 **When writing about E-E-A-T, author authority, topical authority, or content trust signals**, link to:
 - `/blog/eeat-for-b2b-saas` — four-layer E-E-A-T framework for B2B SaaS: experience (original data, case studies, SME interviews), expertise (author entities, topical depth), authoritativeness (analyst relations, partner pages, original research), trustworthiness (technical + commercial trust signals)
