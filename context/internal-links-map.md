@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-06-30  
-**Total articles in pipeline**: 38 in review-required, 0 published  
+**Last Updated**: 2026-07-01  
+**Total articles in pipeline**: 39 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -290,6 +290,16 @@ This document catalogs published and in-progress blog articles for strategic int
 
 ---
 
+## Cluster 11: Content Distribution and Amplification
+
+### B2B Content Distribution Strategy (PILLAR)
+- **URL**: `/blog/b2b-content-distribution-strategy` *(planned)*
+- **Primary Keyword**: b2b content distribution strategy
+- **When to Link**: Articles discussing content promotion, getting content seen, amplification, reaching new audiences beyond existing followers, backlink acquisition through distribution, distribution-to-SEO feedback loop, publish workflow, content operations
+- **Anchor Text Examples**: "B2B content distribution strategy", "content distribution", "owned → earned → paid distribution", "content amplification", "distribute your content", "distribution framework"
+
+---
+
 ## Quick Reference by Topic
 
 **When writing about technical SEO issues**, link to:
@@ -348,6 +358,9 @@ This document catalogs published and in-progress blog articles for strategic int
 - `/blog/user-activation-saas` — activation rate deep dive, signal event identification (cohort analysis method), 5 activation failure modes, tactic playbook by failure mode, benchmark table by GTM motion
 - `/blog/saas-onboarding-emails` — behavioral email architecture, event-triggered vs. time-based drip, stall intervention sequence, subject line strategy by email type, trial expiry email design
 - `/blog/plg-onboarding` — PLG onboarding architecture, self-serve activation, five in-product onboarding layers, three upgrade trigger models (usage/feature-gate/seat-limit), PQL definition method, PLG-specific metrics framework, empty state design framework
+
+**When writing about content distribution, content amplification, or getting content seen beyond existing audience**, link to:
+- `/blog/b2b-content-distribution-strategy` — owned → earned → paid framework, 72-hour distribution window, content-channel fit matrix, link outreach from content, B2B channel priority order, distribution-to-SEO feedback loop, per-publish checklist
 
 **When writing about E-E-A-T, author authority, topical authority, or content trust signals**, link to:
 - `/blog/eeat-for-b2b-saas` — four-layer E-E-A-T framework for B2B SaaS: experience (original data, case studies, SME interviews), expertise (author entities, topical depth), authoritativeness (analyst relations, partner pages, original research), trustworthiness (technical + commercial trust signals)
