@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-07-01  
-**Total articles in pipeline**: 39 in review-required, 0 published  
+**Last Updated**: 2026-07-02  
+**Total articles in pipeline**: 40 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -298,6 +298,12 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing content promotion, getting content seen, amplification, reaching new audiences beyond existing followers, backlink acquisition through distribution, distribution-to-SEO feedback loop, publish workflow, content operations
 - **Anchor Text Examples**: "B2B content distribution strategy", "content distribution", "owned → earned → paid distribution", "content amplification", "distribute your content", "distribution framework"
 
+### Content Distribution Channels (Supporting #1)
+- **URL**: `/blog/content-distribution-channels` *(planned)*
+- **Primary Keyword**: content distribution channels
+- **When to Link**: Articles discussing which channels to use for content promotion, LinkedIn distribution, email newsletter strategy, community seeding, journalist outreach for content, content syndication, Reddit distribution
+- **Anchor Text Examples**: "content distribution channels", "distribution channels for B2B SaaS", "channel selection", "which channels to use", "LinkedIn and email distribution", "community seeding"
+
 ---
 
 ## Quick Reference by Topic
@@ -361,6 +367,7 @@ This document catalogs published and in-progress blog articles for strategic int
 
 **When writing about content distribution, content amplification, or getting content seen beyond existing audience**, link to:
 - `/blog/b2b-content-distribution-strategy` — owned → earned → paid framework, 72-hour distribution window, content-channel fit matrix, link outreach from content, B2B channel priority order, distribution-to-SEO feedback loop, per-publish checklist
+- `/blog/content-distribution-channels` — channel selection matrix (audience fit × content format fit × bandwidth), per-channel activation playbooks and B2B benchmarks for LinkedIn/email/communities/journalist seeding/syndication/Reddit, content-channel fit matrix by format, minimum viable 3-channel stack
 
 **When writing about E-E-A-T, author authority, topical authority, or content trust signals**, link to:
 - `/blog/eeat-for-b2b-saas` — four-layer E-E-A-T framework for B2B SaaS: experience (original data, case studies, SME interviews), expertise (author entities, topical depth), authoritativeness (analyst relations, partner pages, original research), trustworthiness (technical + commercial trust signals)
