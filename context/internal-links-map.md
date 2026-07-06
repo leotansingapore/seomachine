@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-07-03  
-**Total articles in pipeline**: 41 in review-required, 0 published  
+**Last Updated**: 2026-07-06  
+**Total articles in pipeline**: 42 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -310,6 +310,12 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing how to get more from existing content, LinkedIn carousel creation, email newsletter content strategy, content distribution execution, content operations, Medium syndication, reach amplification
 - **Anchor Text Examples**: "content repurposing strategy", "repurpose your content", "repurposing system", "LinkedIn carousel", "email breakdown", "Medium syndication", "repurposing stack"
 
+### Content Promotion Tools (Supporting #3)
+- **URL**: `/blog/content-promotion-tools` *(planned)*
+- **Primary Keyword**: content promotion tools
+- **When to Link**: Articles discussing tools for email distribution, LinkedIn scheduling, carousel design, link-building outreach, UTM tracking, content ops software stack, blog promotion, content distribution software
+- **Anchor Text Examples**: "content promotion tools", "blog promotion tools", "content distribution tools", "minimum viable promotion stack", "email distribution tools", "LinkedIn scheduling tools", "outreach tools"
+
 ---
 
 ## Quick Reference by Topic
@@ -375,6 +381,7 @@ This document catalogs published and in-progress blog articles for strategic int
 - `/blog/b2b-content-distribution-strategy` — owned → earned → paid framework, 72-hour distribution window, content-channel fit matrix, link outreach from content, B2B channel priority order, distribution-to-SEO feedback loop, per-publish checklist
 - `/blog/content-distribution-channels` — channel selection matrix (audience fit × content format fit × bandwidth), per-channel activation playbooks and B2B benchmarks for LinkedIn/email/communities/journalist seeding/syndication/Reddit, content-channel fit matrix by format, minimum viable 3-channel stack
 - `/blog/content-repurposing-strategy` — repurposing selection filter (top 20–30% threshold), format-channel fit matrix (6 content types × 5 B2B channels), LinkedIn carousel + email breakdown + community thread playbooks, Medium syndication with canonical tags, SEO feedback loop from repurposed traffic, minimum viable 3-format stack (2h 15m)
+- `/blog/content-promotion-tools` — opinionated B2B SaaS tool stack by use case (email/social scheduling/carousel design/outreach/analytics), budget tiers (free/$40/mo/$144/mo), ConvertKit vs HubSpot decision point, Buffer vs Hootsuite, Canva vs Figma, Hunter + BuzzStream outreach stack, UTM setup via GA4 + utm.io, minimum viable $0/mo stack, promotion workflow connecting all tools
 
 **When writing about E-E-A-T, author authority, topical authority, or content trust signals**, link to:
 - `/blog/eeat-for-b2b-saas` — four-layer E-E-A-T framework for B2B SaaS: experience (original data, case studies, SME interviews), expertise (author entities, topical depth), authoritativeness (analyst relations, partner pages, original research), trustworthiness (technical + commercial trust signals)
