@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-07-06  
-**Total articles in pipeline**: 42 in review-required, 0 published  
+**Last Updated**: 2026-07-07  
+**Total articles in pipeline**: 43 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -318,6 +318,16 @@ This document catalogs published and in-progress blog articles for strategic int
 
 ---
 
+## Cluster 12: Content Operations
+
+### Content Operations Framework (PILLAR)
+- **URL**: `/blog/content-operations-framework` *(planned)*
+- **Primary Keyword**: content operations framework
+- **When to Link**: Articles discussing content production systems, editorial processes, content team structure, content workflow management, production pipeline design, content ops metrics, scaling a content team, content calendar management, brief-to-publish systems, content ops tooling
+- **Anchor Text Examples**: "content operations framework", "content operations system", "content ops", "content workflow management", "content production pipeline", "content operations strategy"
+
+---
+
 ## Quick Reference by Topic
 
 **When writing about technical SEO issues**, link to:
@@ -376,6 +386,9 @@ This document catalogs published and in-progress blog articles for strategic int
 - `/blog/user-activation-saas` — activation rate deep dive, signal event identification (cohort analysis method), 5 activation failure modes, tactic playbook by failure mode, benchmark table by GTM motion
 - `/blog/saas-onboarding-emails` — behavioral email architecture, event-triggered vs. time-based drip, stall intervention sequence, subject line strategy by email type, trial expiry email design
 - `/blog/plg-onboarding` — PLG onboarding architecture, self-serve activation, five in-product onboarding layers, three upgrade trigger models (usage/feature-gate/seat-limit), PQL definition method, PLG-specific metrics framework, empty state design framework
+
+**When writing about content operations, editorial workflow, production pipeline, content team structure, or content ops metrics**, link to:
+- `/blog/content-operations-framework` — 5-component content ops architecture (Strategy/Process/People/Technology/Measurement), 7-stage production pipeline with quality gates, role definitions at 3 team scales (solo/3-person/7-person), minimum viable tech stack by scale, pipeline metrics dashboard (throughput/cycle time/quality gate pass rate), 90-day content ops build sequence
 
 **When writing about content distribution, content amplification, or getting content seen beyond existing audience**, link to:
 - `/blog/b2b-content-distribution-strategy` — owned → earned → paid framework, 72-hour distribution window, content-channel fit matrix, link outreach from content, B2B channel priority order, distribution-to-SEO feedback loop, per-publish checklist
