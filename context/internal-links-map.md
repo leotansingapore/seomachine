@@ -2,8 +2,8 @@
 
 This document catalogs published and in-progress blog articles for strategic internal linking. Use this as the go-to reference when adding internal links to new content.
 
-**Last Updated**: 2026-07-07  
-**Total articles in pipeline**: 43 in review-required, 0 published  
+**Last Updated**: 2026-07-08  
+**Total articles in pipeline**: 44 in review-required, 0 published  
 **Note**: URLs listed as planned `/blog/` slugs. Update to full URLs once WordPress is live.
 
 ---
@@ -326,6 +326,12 @@ This document catalogs published and in-progress blog articles for strategic int
 - **When to Link**: Articles discussing content production systems, editorial processes, content team structure, content workflow management, production pipeline design, content ops metrics, scaling a content team, content calendar management, brief-to-publish systems, content ops tooling
 - **Anchor Text Examples**: "content operations framework", "content operations system", "content ops", "content workflow management", "content production pipeline", "content operations strategy"
 
+### Content Workflow Management (Supporting #1)
+- **URL**: `/blog/content-workflow-management` *(planned)*
+- **Primary Keyword**: content workflow management
+- **When to Link**: Articles discussing content production process, editorial workflows, brief-to-publish systems, delegation of content work, content team scaling, handoff criteria, cycle time, content bottlenecks, production SOPs
+- **Anchor Text Examples**: "content workflow management", "content workflow", "content production workflow", "editorial workflow", "content process", "production workflow", "workflow stages", "content handoff criteria"
+
 ---
 
 ## Quick Reference by Topic
@@ -389,6 +395,7 @@ This document catalogs published and in-progress blog articles for strategic int
 
 **When writing about content operations, editorial workflow, production pipeline, content team structure, or content ops metrics**, link to:
 - `/blog/content-operations-framework` — 5-component content ops architecture (Strategy/Process/People/Technology/Measurement), 7-stage production pipeline with quality gates, role definitions at 3 team scales (solo/3-person/7-person), minimum viable tech stack by scale, pipeline metrics dashboard (throughput/cycle time/quality gate pass rate), 90-day content ops build sequence
+- `/blog/content-workflow-management` — 7-stage workflow framework with explicit handoff criteria (stage-completion conditions per transition), workflow design at 3 team scales (solo/3-person/5–7 person), cycle time as the primary bottleneck metric, three failure modes and fixes (brief quality/editorial accumulation/production delays), living SOP documentation, tool selection criteria (stage visibility/handoff triggers/cycle time reporting)
 
 **When writing about content distribution, content amplification, or getting content seen beyond existing audience**, link to:
 - `/blog/b2b-content-distribution-strategy` — owned → earned → paid framework, 72-hour distribution window, content-channel fit matrix, link outreach from content, B2B channel priority order, distribution-to-SEO feedback loop, per-publish checklist
